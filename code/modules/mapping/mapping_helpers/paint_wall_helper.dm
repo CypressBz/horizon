@@ -62,4 +62,3 @@
 	stripe_paint = "#54402D"
 	wall_paint = "#54402D"
 	icon_state = "paint_hotel_wood"
-	
