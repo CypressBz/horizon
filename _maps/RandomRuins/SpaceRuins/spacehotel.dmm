@@ -22,28 +22,22 @@
 /turf/open/floor/carpet/royalblack,
 /area/ruin/space/has_grav/hotel/guestroom/room_10)
 "ae" = (
-/obj/effect/turf_decal/siding/wood,
 /obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/hotel/workroom)
+"af" = (
+/obj/machinery/door/firedoor,
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
-	},
-/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4,
-/turf/open/floor/carpet/black,
-/area/ruin/space/has_grav/hotel/hall_fore)
-"af" = (
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 9
 	},
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
-/obj/structure/lattice/catwalk/plated/dark,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/hotel/docking_hall)
-"ag" = (
-/obj/item/cardboard_cutout,
 /turf/open/floor/iron/dark,
-/area/ruin/space/has_grav/hotel/fitness)
+/area/ruin/space/has_grav/hotel/docking_hall)
 "ah" = (
 /obj/structure/cable,
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
@@ -112,19 +106,20 @@
 /obj/item/bedsheet/random,
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/guestroom/room_6)
-"ar" = (
-/obj/effect/turf_decal/siding/wood,
-/obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/turf/open/floor/carpet/black,
-/area/ruin/space/has_grav/hotel/hall_fore)
 "at" = (
 /obj/machinery/light/floor,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/hotel/bar)
+"au" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 9
+	},
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood/parquet,
+/area/ruin/space/has_grav/hotel/fitness)
 "aw" = (
 /obj/structure/chair/comfy/brown{
 	dir = 4
@@ -155,13 +150,6 @@
 /obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/hotel/maintenance)
-"aB" = (
-/obj/structure/cable,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
-/turf/open/floor/iron/dark,
-/area/ruin/space/has_grav/hotel/bar_backroom)
 "aC" = (
 /obj/structure/table/wood,
 /obj/effect/turf_decal/siding/wood{
@@ -233,6 +221,17 @@
 /obj/structure/window/reinforced/spawner/north,
 /turf/open/floor/grass,
 /area/ruin/space/has_grav/hotel/dining_hall)
+"aN" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "hotelbarshutters";
+	name = "Bar Shutters"
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/hotel/bar)
 "aQ" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -254,6 +253,16 @@
 /obj/item/bedsheet/random,
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/guestroom/room_8)
+"aX" = (
+/obj/structure/cable,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 9
+	},
+/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron/white/textured_large,
+/area/ruin/space/has_grav/hotel/kitchen)
 "aY" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -290,16 +299,15 @@
 /obj/item/reagent_containers/food/condiment/soysauce,
 /turf/open/floor/iron/white/textured_large,
 /area/ruin/space/has_grav/hotel/kitchen)
-"bg" = (
-/obj/item/toy/beach_ball,
-/turf/open/floor/iron/sepia,
-/area/ruin/space/has_grav/hotel/fitness)
-"bk" = (
+"bi" = (
 /obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
-/turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav/hotel/fitness)
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/hotel/maintenance)
 "bn" = (
 /obj/machinery/vending/hydronutrients{
 	extra_price = 0;
@@ -352,6 +360,21 @@
 /obj/machinery/vending/cola/shamblers,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/hotel/hall_fore)
+"bw" = (
+/obj/structure/cable,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/door/airlock/maintenance{
+	name = "Hotel Maintenance";
+	req_access_txt = "200,201"
+	},
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/hotel/maintenance)
 "bx" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
@@ -432,16 +455,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/textured_half,
 /area/ruin/space/has_grav/hotel/fitness)
-"bO" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 10
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 10
-	},
-/turf/open/floor/iron,
-/area/ruin/space/has_grav/hotel/security)
 "bR" = (
 /obj/structure/bed,
 /turf/open/floor/iron/smooth,
@@ -474,44 +487,19 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/hotel/guestroom/room_2)
 "bX" = (
-/obj/structure/cable,
-/obj/structure/lattice/catwalk/plated/smooth,
-/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
+/obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
-/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
-	dir = 4
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
 	},
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/hotel/maintenance)
+/turf/open/floor/wood/parquet,
+/area/ruin/space/has_grav/hotel/fitness)
 "bZ" = (
 /obj/structure/table,
 /obj/item/soap,
 /turf/open/floor/iron/showroomfloor,
 /area/ruin/space/has_grav/hotel/laundry)
-"ca" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 9
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
-/obj/structure/lattice/catwalk/plated/smooth,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/hotel/security)
-"cb" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 1
-	},
-/obj/structure/cable,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
-	dir = 1
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/turf/open/floor/carpet/black,
-/area/ruin/space/has_grav/hotel/hall_fore)
 "cc" = (
 /obj/structure/toilet{
 	dir = 8;
@@ -521,11 +509,6 @@
 /obj/structure/curtain,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/hotel/toilet)
-"cf" = (
-/obj/effect/turf_decal/siding/wood,
-/obj/machinery/vending/snack/blue,
-/turf/open/floor/carpet/black,
-/area/ruin/space/has_grav/hotel/hall_fore)
 "cg" = (
 /obj/machinery/door/airlock/public/glass,
 /obj/machinery/door/firedoor,
@@ -539,20 +522,11 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/hotel/guestroom/room_8)
-"ci" = (
-/obj/effect/mapping_helpers/paint_wall/hotel,
-/obj/machinery/door/airlock/public/glass{
-	name = "Main hall"
-	},
-/obj/effect/turf_decal/siding/wood{
-	dir = 1
-	},
-/turf/open/floor/iron/textured_half,
-/area/ruin/space/has_grav/hotel/bar)
 "cj" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-21"
 	},
+/obj/effect/mapping_helpers/paint_wall/hotel,
 /turf/closed/wall,
 /area/ruin/space/has_grav/hotel/fitness)
 "ck" = (
@@ -622,16 +596,6 @@
 /obj/machinery/deepfryer,
 /turf/open/floor/iron/white/textured_corner,
 /area/ruin/space/has_grav/hotel/kitchen)
-"cy" = (
-/obj/machinery/light/directional/north,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/machinery/vending/clothing{
-	default_price = 0;
-	extra_price = 0;
-	fair_market_price = 0
-	},
-/turf/open/floor/iron/smooth,
-/area/ruin/space/has_grav/hotel/maintenance)
 "cz" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -641,14 +605,6 @@
 	},
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/hotel/dining_hall)
-"cA" = (
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4,
-/obj/structure/lattice/catwalk/plated/dark,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/hotel/docking_hall)
 "cD" = (
 /obj/machinery/firealarm/directional/west,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -667,15 +623,14 @@
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/hotel/teleporter)
 "cH" = (
-/obj/effect/turf_decal/siding/wood,
-/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
-	dir = 1
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
 	},
-/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
-	dir = 1
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
 	},
-/turf/open/floor/carpet/black,
-/area/ruin/space/has_grav/hotel/dining_hall)
+/turf/open/floor/wood/parquet,
+/area/ruin/space/has_grav/hotel/sauna)
 "cI" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
@@ -709,12 +664,6 @@
 	},
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/hotel/dining_hall)
-"cO" = (
-/obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
-/turf/open/floor/iron/dark/textured,
-/area/ruin/space/has_grav/hotel/bar)
 "cP" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
@@ -777,12 +726,6 @@
 "cY" = (
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/hotel/docking_hall)
-"da" = (
-/obj/structure/chair/stool/bar/directional/west{
-	dir = 1
-	},
-/turf/open/floor/wood,
-/area/ruin/space/has_grav/hotel/bar)
 "dc" = (
 /obj/structure/chair/comfy/brown{
 	dir = 4
@@ -820,10 +763,6 @@
 	},
 /turf/open/floor/wood/tile,
 /area/ruin/space/has_grav/hotel/guestroom/room_10)
-"di" = (
-/obj/effect/turf_decal/siding/wood/corner,
-/turf/open/floor/iron/textured_corner,
-/area/ruin/space/has_grav/hotel/fitness)
 "dj" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
@@ -864,11 +803,6 @@
 	},
 /turf/open/floor/iron/cafeteria,
 /area/ruin/space/has_grav/hotel/kitchen)
-"do" = (
-/turf/open/floor/iron/textured_corner{
-	dir = 8
-	},
-/area/ruin/space/has_grav/hotel/fitness)
 "dp" = (
 /obj/machinery/power/terminal{
 	dir = 8
@@ -1007,6 +941,16 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/hall_aft)
+"dL" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
+	dir = 1
+	},
+/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
+	dir = 1
+	},
+/turf/open/floor/carpet/black,
+/area/ruin/space/has_grav/hotel/dining_hall)
 "dM" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/poddoor/shutters/preopen{
@@ -1029,6 +973,12 @@
 	dir = 1
 	},
 /area/ruin/space/has_grav/hotel/hydroponics)
+"dT" = (
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 6
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/hotel/docking_hall)
 "dU" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -1049,6 +999,16 @@
 /obj/effect/turf_decal/trimline/red/filled/line,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/hotel/security)
+"ed" = (
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 9
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/structure/lattice/catwalk/plated/dark,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/hotel/docking_hall)
 "ee" = (
 /obj/structure/table,
 /obj/item/kitchen/knife,
@@ -1073,6 +1033,13 @@
 /obj/effect/mapping_helpers/paint_wall/hotel,
 /turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/hotel/power)
+"eh" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/structure/lattice/catwalk/plated/dark,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/hotel/docking_hall)
 "ei" = (
 /obj/structure/cable,
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
@@ -1125,12 +1092,6 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/dining_hall)
-"eq" = (
-/obj/structure/reagent_dispensers,
-/turf/open/floor/iron/textured_half{
-	dir = 1
-	},
-/area/ruin/space/has_grav/hotel/sauna)
 "eu" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/siding/wood{
@@ -1140,6 +1101,24 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/guestroom/room_2)
+"ev" = (
+/obj/item/toy/beach_ball,
+/turf/open/floor/iron/sepia,
+/area/ruin/space/has_grav/hotel/fitness)
+"ew" = (
+/obj/effect/turf_decal/tile/bar/half{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/bar/half{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 6
+	},
+/turf/open/floor/iron/white/textured_half{
+	dir = 1
+	},
+/area/ruin/space/has_grav/hotel/kitchen)
 "ex" = (
 /obj/machinery/atmospherics/components/binary/pump/off/supply/visible/layer4{
 	dir = 4
@@ -1211,15 +1190,6 @@
 	},
 /turf/open/floor/iron/showroomfloor,
 /area/ruin/space/has_grav/hotel/laundry)
-"eM" = (
-/obj/structure/table/reinforced,
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "hotelbarshutters";
-	name = "Bar Shutters"
-	},
-/obj/effect/turf_decal/siding/wood,
-/turf/open/floor/iron/dark,
-/area/ruin/space/has_grav/hotel/bar)
 "eN" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 4
@@ -1340,6 +1310,15 @@
 	dir = 8
 	},
 /area/ruin/space/has_grav/hotel/hydroponics)
+"eZ" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood/parquet,
+/area/ruin/space/has_grav/hotel/sauna)
 "fb" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
@@ -1372,16 +1351,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/dark/textured,
 /area/ruin/space/has_grav/hotel/fitness)
-"fg" = (
-/obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/turf/open/floor/iron/dark/textured,
-/area/ruin/space/has_grav/hotel/hall_fore)
 "fh" = (
 /obj/machinery/grill,
 /turf/open/floor/iron/white/textured_half{
@@ -1402,6 +1371,18 @@
 	},
 /turf/open/floor/iron/cafeteria,
 /area/ruin/space/has_grav/hotel/kitchen)
+"fk" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 10
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 9
+	},
+/turf/open/floor/carpet/black,
+/area/ruin/space/has_grav/hotel/hall_aft)
 "fm" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/structure/sign/warning/fire{
@@ -1424,6 +1405,12 @@
 /obj/effect/mapping_helpers/paint_wall/hotel,
 /turf/closed/wall,
 /area/ruin/space/has_grav/hotel/guestroom/room_1)
+"fs" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/firedoor,
+/obj/effect/mapping_helpers/paint_wall/hotel,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/hotel/sauna)
 "fu" = (
 /obj/structure/chair/stool/bar/directional/west,
 /turf/open/floor/wood,
@@ -1495,10 +1482,6 @@
 	},
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/dining_hall)
-"fK" = (
-/obj/structure/reagent_dispensers,
-/turf/open/floor/iron/dark,
-/area/ruin/space/has_grav/hotel/bar)
 "fN" = (
 /obj/structure/table/wood,
 /obj/item/trash/sosjerky,
@@ -1541,16 +1524,6 @@
 	},
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/dining_hall)
-"fY" = (
-/obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
-	dir = 1
-	},
-/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
-	dir = 1
-	},
-/turf/open/floor/iron/dark/textured,
-/area/ruin/space/has_grav/hotel/hall_fore)
 "gb" = (
 /obj/structure/chair/sofa/right{
 	dir = 8
@@ -1670,13 +1643,15 @@
 /turf/open/floor/eighties,
 /area/ruin/space/has_grav/hotel/hall_fore)
 "gD" = (
-/obj/structure/cable,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4,
-/obj/structure/lattice/catwalk/plated/smooth,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/hotel/maintenance)
+/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/machinery/hydroponics/constructable,
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 5
+	},
+/turf/open/floor/iron/textured,
+/area/ruin/space/has_grav/hotel/hydroponics)
 "gH" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 10
@@ -1694,23 +1669,14 @@
 /obj/structure/extinguisher_cabinet/directional/north,
 /turf/open/floor/iron/textured_half,
 /area/ruin/space/has_grav/hotel/sauna)
-"gM" = (
-/obj/structure/cable,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+"gN" = (
+/obj/effect/turf_decal/trimline/red/filled/line,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
 	dir = 4
 	},
-/turf/open/floor/iron/dark/textured,
-/area/ruin/space/has_grav/hotel/hall_aft)
-"gN" = (
-/obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4,
-/turf/open/floor/iron/dark/textured,
-/area/ruin/space/has_grav/hotel/hall_fore)
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/hotel/security)
 "gO" = (
 /obj/structure/table/reinforced,
 /obj/machinery/chem_dispenser/drinks/beer/fullupgrade{
@@ -1822,6 +1788,14 @@
 /obj/structure/extinguisher_cabinet/directional/east,
 /turf/open/floor/iron/smooth,
 /area/ruin/space/has_grav/hotel/power)
+"hg" = (
+/obj/structure/cable,
+/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/turf/open/floor/iron/white/textured_large,
+/area/ruin/space/has_grav/hotel/kitchen)
 "hh" = (
 /obj/effect/mob_spawn/human/hotel_staff,
 /turf/open/floor/iron/dark,
@@ -1889,12 +1863,6 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/hotel/security)
-"hv" = (
-/obj/structure/table/reinforced,
-/turf/open/floor/iron/textured_corner{
-	dir = 4
-	},
-/area/ruin/space/has_grav/hotel/fitness)
 "hw" = (
 /obj/structure/table,
 /obj/item/folder/red,
@@ -1904,6 +1872,13 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/hotel/security)
+"hy" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Pool's Closed"
+	},
+/obj/structure/barricade/wooden,
+/turf/open/floor/iron/textured_half,
+/area/ruin/space/has_grav/hotel/fitness)
 "hA" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -1981,10 +1956,16 @@
 /obj/machinery/power/apc/auto_name/north,
 /turf/open/floor/iron/showroomfloor,
 /area/ruin/space/has_grav/hotel/laundry)
+"hH" = (
+/obj/item/cardboard_cutout,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/hotel/fitness)
 "hJ" = (
 /obj/structure/cable,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
-/turf/open/floor/iron/smooth,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
 /area/ruin/space/has_grav/hotel/maintenance)
 "hK" = (
 /obj/machinery/vending/cola/shamblers,
@@ -2002,15 +1983,7 @@
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/hotel/docking_hall)
 "hM" = (
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/structure/lattice/catwalk/plated/smooth,
-/obj/structure/cable,
-/turf/open/floor/plating,
+/turf/open/floor/iron/smooth,
 /area/ruin/space/has_grav/hotel/maintenance)
 "hN" = (
 /obj/structure/table,
@@ -2074,12 +2047,6 @@
 /obj/item/bedsheet/random/double,
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/guestroom/room_9)
-"hV" = (
-/obj/machinery/door/firedoor,
-/obj/effect/mapping_helpers/paint_wall/hotel,
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/hotel/security)
 "hW" = (
 /obj/machinery/door/airlock/medical/glass,
 /obj/structure/cable,
@@ -2197,16 +2164,14 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/hotel/teleporter)
-"iy" = (
-/obj/structure/cable,
+"iw" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 10
+	dir = 9
 	},
-/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
-	dir = 1
-	},
-/turf/open/floor/iron/white/textured_large,
-/area/ruin/space/has_grav/hotel/kitchen)
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/hotel/security)
 "iA" = (
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "hotelentrydeskshutters";
@@ -2240,6 +2205,16 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /turf/open/floor/carpet/royalblack,
 /area/ruin/space/has_grav/hotel/guestroom/room_10)
+"iI" = (
+/obj/structure/cable,
+/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
+	dir = 1
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/textured,
+/area/ruin/space/has_grav/hotel/hall_fore)
 "iJ" = (
 /obj/effect/mapping_helpers/paint_wall/hotel,
 /turf/closed/wall,
@@ -2474,15 +2449,6 @@
 	dir = 8
 	},
 /area/ruin/space/has_grav/hotel/sauna)
-"jq" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
-/obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
-/turf/open/floor/carpet/black,
-/area/ruin/space/has_grav/hotel/dining_hall)
 "js" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
@@ -2614,6 +2580,12 @@
 	},
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/hotel/hall_fore)
+"jL" = (
+/obj/structure/reagent_dispensers,
+/turf/open/floor/iron/textured_half{
+	dir = 1
+	},
+/area/ruin/space/has_grav/hotel/sauna)
 "jN" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -2674,6 +2646,9 @@
 	},
 /turf/open/floor/iron/showroomfloor,
 /area/ruin/space/has_grav/hotel/guestroom/room_10)
+"kd" = (
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/hotel/security)
 "ke" = (
 /obj/item/storage/toolbox/mechanical,
 /obj/item/clothing/head/welding,
@@ -2786,10 +2761,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/eighties,
 /area/ruin/space/has_grav/hotel/hall_fore)
-"kA" = (
-/obj/effect/mapping_helpers/paint_wall/hotel,
-/turf/open/floor/iron/smooth,
-/area/ruin/space/has_grav/hotel/dining_hall)
 "kB" = (
 /obj/structure/chair,
 /obj/machinery/airalarm/directional/north,
@@ -2811,11 +2782,20 @@
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/guestroom/room_2)
 "kD" = (
-/obj/effect/turf_decal/siding/wood{
+/obj/machinery/door/airlock/maintenance{
+	name = "Hotel Maintenance";
+	req_access_txt = "200,201"
+	},
+/obj/structure/cable,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
-/turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav/hotel/fitness)
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/hotel/maintenance)
 "kG" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -2845,11 +2825,6 @@
 /obj/machinery/airalarm/directional/east,
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/guestroom/room_2)
-"kK" = (
-/obj/effect/mapping_helpers/paint_wall/hotel,
-/obj/structure/barricade/wooden,
-/turf/open/floor/iron/dark,
-/area/ruin/space/has_grav/hotel/bar)
 "kM" = (
 /obj/structure/chair/sofa/bench/right{
 	dir = 8
@@ -2932,18 +2907,6 @@
 	},
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/hall_fore)
-"ld" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 1
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 10
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 9
-	},
-/turf/open/floor/carpet/black,
-/area/ruin/space/has_grav/hotel/hall_aft)
 "le" = (
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/hotel/workroom)
@@ -3007,8 +2970,8 @@
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 1
 	},
-/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/hall_fore)
 "lq" = (
@@ -3275,11 +3238,14 @@
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/dining_hall)
 "lW" = (
-/obj/machinery/light/directional/west,
-/turf/open/floor/iron/textured_half{
-	dir = 1
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
 	},
-/area/ruin/space/has_grav/hotel/sauna)
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/hotel/bar)
 "lX" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
@@ -3368,6 +3334,14 @@
 /obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/hotel/maintenance)
+"mm" = (
+/obj/structure/cable,
+/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
+	dir = 1
+	},
+/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/hotel/bar)
 "mn" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 4
@@ -3385,7 +3359,7 @@
 	dir = 4
 	},
 /turf/open/floor/carpet/black,
-/area/ruin/space/has_grav/hotel/maintenance)
+/area/ruin/space/has_grav/hotel/dining_hall)
 "mo" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 1
@@ -3426,12 +3400,8 @@
 	dir = 4
 	},
 /obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 5
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 5
-	},
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/dining_hall)
 "mu" = (
@@ -3608,6 +3578,15 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/hotel/bar)
+"mQ" = (
+/obj/effect/mapping_helpers/paint_wall/hotel,
+/obj/machinery/vending/boozeomat/all_access{
+	extra_price = 0;
+	fair_market_price = 0;
+	default_price = 0
+	},
+/turf/closed/wall,
+/area/ruin/space/has_grav/hotel/bar)
 "mR" = (
 /obj/effect/mapping_helpers/paint_wall/hotel,
 /turf/closed/wall,
@@ -3625,6 +3604,13 @@
 "mW" = (
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/hotel/guestroom/room_8)
+"nd" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4,
+/turf/open/floor/carpet/black,
+/area/ruin/space/has_grav/hotel/hall_fore)
 "ng" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 6
@@ -3655,19 +3641,6 @@
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/hotel/bar)
-"np" = (
-/obj/structure/cable,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
-/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
-	dir = 1
-	},
-/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
-	dir = 1
-	},
-/obj/structure/lattice/catwalk/plated/smooth,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/hotel/maintenance)
 "nq" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/poddoor/shutters/preopen{
@@ -3688,18 +3661,16 @@
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/hall_fore)
 "nw" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 1
-	},
 /obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
-	dir = 1
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 10
 	},
-/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
-	dir = 1
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 10
 	},
-/turf/open/floor/carpet/black,
-/area/ruin/space/has_grav/hotel/hall_fore)
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/hotel/maintenance)
 "ny" = (
 /obj/item/book/manual/wiki/medicine,
 /obj/structure/table,
@@ -3713,15 +3684,6 @@
 /obj/machinery/airalarm/directional/south,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/hotel/bar)
-"nD" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 6
-	},
-/obj/effect/turf_decal/siding/wood{
-	dir = 1
-	},
-/turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav/hotel/fitness)
 "nI" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/bag/tray,
@@ -3872,13 +3834,6 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/bar)
-"ou" = (
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/structure/lattice/catwalk/plated/dark,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/hotel/docking_hall)
 "ow" = (
 /obj/machinery/hydroponics/constructable,
 /turf/open/floor/iron/dark/textured,
@@ -3894,14 +3849,6 @@
 /obj/effect/turf_decal/siding/wood/corner,
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/bar)
-"oz" = (
-/obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 9
-	},
-/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4,
-/turf/open/floor/iron/dark/textured,
-/area/ruin/space/has_grav/hotel/hall_aft)
 "oA" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
@@ -3940,15 +3887,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/hotel/workroom)
-"oF" = (
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 9
-	},
-/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
-	dir = 4
-	},
-/turf/open/floor/iron/dark/textured,
-/area/ruin/space/has_grav/hotel/dining_hall)
 "oG" = (
 /obj/machinery/door/airlock/engineering{
 	name = "Power Storage";
@@ -3958,14 +3896,8 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /obj/structure/lattice/catwalk/plated/smooth,
-/turf/open/floor/iron/dark,
+/turf/open/floor/plating,
 /area/ruin/space/has_grav/hotel/power)
-"oI" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 8
-	},
-/turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav/hotel/fitness)
 "oJ" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -4007,18 +3939,6 @@
 	},
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/hall_fore)
-"oW" = (
-/obj/structure/cable,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 6
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 6
-	},
-/obj/structure/lattice/catwalk/plated/smooth,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/hotel/maintenance)
 "oX" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
@@ -4029,14 +3949,6 @@
 /obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/hotel/power)
-"oY" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/structure/lattice/catwalk/plated/dark,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/hotel/docking_hall)
 "oZ" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
@@ -4059,20 +3971,10 @@
 	dir = 1
 	},
 /area/ruin/space/has_grav/hotel/sauna)
-"pd" = (
-/obj/machinery/recharge_station,
-/turf/open/floor/wood,
-/area/ruin/space/has_grav/hotel/hall_fore)
 "pe" = (
-/obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 5
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 9
-	},
-/turf/open/floor/iron/dark,
-/area/ruin/space/has_grav/hotel/workroom)
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
+/turf/open/floor/iron/dark/textured,
+/area/ruin/space/has_grav/hotel/hydroponics)
 "pg" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -4144,7 +4046,8 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
-/turf/open/floor/iron/dark,
+/obj/structure/lattice/catwalk/plated/dark,
+/turf/open/floor/plating,
 /area/ruin/space/has_grav/hotel/docking_hall)
 "pq" = (
 /obj/machinery/door/firedoor,
@@ -4168,11 +4071,12 @@
 /obj/effect/mapping_helpers/paint_wall/hotel_wood,
 /turf/closed/wall/mineral/wood,
 /area/ruin/space/has_grav/hotel/sauna)
-"pw" = (
+"py" = (
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/textured_corner{
-	dir = 1
+	dir = 4
 	},
-/area/ruin/space/has_grav/hotel/sauna)
+/area/ruin/space/has_grav/hotel/fitness)
 "pz" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 8
@@ -4198,6 +4102,18 @@
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/hotel/dining_hall)
+"pN" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 6
+	},
+/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood/parquet,
+/area/ruin/space/has_grav/hotel/fitness)
 "pO" = (
 /obj/structure/table,
 /obj/item/stack/medical/suture/emergency,
@@ -4290,13 +4206,6 @@
 	},
 /turf/open/floor/iron/smooth,
 /area/ruin/space/has_grav/hotel/maintenance)
-"qk" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 9
-	},
-/obj/effect/turf_decal/siding/wood/corner,
-/turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav/hotel/fitness)
 "ql" = (
 /obj/effect/spawner/randomarcade{
 	dir = 1
@@ -4308,13 +4217,8 @@
 "qm" = (
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 6
-	},
-/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
-	dir = 1
-	},
-/obj/effect/turf_decal/siding/wood,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /turf/open/floor/wood/parquet,
 /area/ruin/space/has_grav/hotel/fitness)
 "qo" = (
@@ -4409,9 +4313,24 @@
 /obj/structure/mirror/directional/west,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/hotel/toilet)
+"qG" = (
+/obj/structure/closet/secure_closet/personal,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 9
+	},
+/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4,
+/turf/open/floor/wood/parquet,
+/area/ruin/space/has_grav/hotel/sauna)
 "qI" = (
-/obj/machinery/space_heater,
-/turf/open/floor/iron/smooth,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 6
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 6
+	},
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
 /area/ruin/space/has_grav/hotel/maintenance)
 "qJ" = (
 /obj/effect/turf_decal/siding/wood{
@@ -4427,6 +4346,21 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/hotel/bar)
+"qP" = (
+/obj/machinery/door/airlock/freezer{
+	name = "Freezer";
+	req_access_txt = "200"
+	},
+/obj/machinery/door/firedoor,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron/freezer,
+/area/ruin/space/has_grav/hotel/kitchen)
 "qQ" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 10
@@ -4466,13 +4400,6 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/hotel/security)
-"qV" = (
-/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
-/turf/open/floor/wood,
-/area/ruin/space/has_grav/hotel/bar)
 "qW" = (
 /obj/structure/rack/shelf,
 /obj/item/chair{
@@ -4568,11 +4495,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/hotel/bar_backroom)
-"rp" = (
-/obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
-/turf/open/floor/iron/dark,
-/area/ruin/space/has_grav/hotel/bar)
 "rt" = (
 /obj/machinery/power/apc/auto_name/west,
 /obj/structure/cable,
@@ -4587,8 +4509,12 @@
 /turf/template_noop,
 /area/ruin/space/has_grav/hotel/power)
 "rv" = (
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 5
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 9
+	},
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/hotel/bar)
 "rx" = (
@@ -4646,6 +4572,13 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/hotel/bar)
+"rE" = (
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 6
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/hotel/docking_hall)
 "rF" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
@@ -4680,6 +4613,12 @@
 /obj/effect/mapping_helpers/paint_wall/hotel,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/hotel/first_aid)
+"rR" = (
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 9
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/hotel/docking_hall)
 "rT" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
@@ -4700,16 +4639,14 @@
 /turf/closed/wall,
 /area/ruin/space/has_grav/hotel/security)
 "rZ" = (
-/obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
+	dir = 9
 	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
 	dir = 4
 	},
-/obj/structure/lattice/catwalk/plated/dark,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/hotel/docking_hall)
+/turf/open/floor/iron/dark/textured,
+/area/ruin/space/has_grav/hotel/dining_hall)
 "sa" = (
 /obj/machinery/firealarm/directional/west,
 /turf/open/floor/iron/dark,
@@ -4814,6 +4751,12 @@
 	},
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/dining_hall)
+"sB" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood/parquet,
+/area/ruin/space/has_grav/hotel/fitness)
 "sC" = (
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 8
@@ -4822,6 +4765,11 @@
 	dir = 1
 	},
 /area/ruin/space/has_grav/hotel/hydroponics)
+"sD" = (
+/obj/effect/mapping_helpers/paint_wall/hotel,
+/obj/structure/barricade/wooden,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/hotel/bar)
 "sF" = (
 /obj/effect/turf_decal/siding/thinplating,
 /obj/item/kirbyplants{
@@ -4836,11 +4784,13 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
 	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
+/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4,
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/hall_fore)
+"sI" = (
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood/parquet,
+/area/ruin/space/has_grav/hotel/sauna)
 "sJ" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
@@ -4851,21 +4801,17 @@
 /obj/structure/lattice/catwalk/plated/dark,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/hotel/docking_hall)
-"sL" = (
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
-	dir = 4
-	},
-/turf/open/floor/iron/textured,
-/area/ruin/space/has_grav/hotel/hydroponics)
 "sM" = (
-/obj/effect/turf_decal/trimline/red/filled/line,
-/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
-/turf/open/floor/iron,
-/area/ruin/space/has_grav/hotel/security)
+/obj/structure/lattice/catwalk/plated/dark,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/hotel/docking_hall)
 "sN" = (
 /obj/structure/table,
 /turf/open/floor/iron/white/textured_half,
@@ -4931,6 +4877,19 @@
 	},
 /turf/open/floor/iron/white/textured_large,
 /area/ruin/space/has_grav/hotel/kitchen)
+"th" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/structure/cable,
+/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
+	dir = 1
+	},
+/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
+	dir = 1
+	},
+/turf/open/floor/carpet/black,
+/area/ruin/space/has_grav/hotel/hall_fore)
 "tk" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 10
@@ -4950,6 +4909,22 @@
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/dining_hall)
+"tn" = (
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/textured,
+/area/ruin/space/has_grav/hotel/dining_hall)
+"to" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/obj/effect/turf_decal/siding/wood/corner,
+/turf/open/floor/wood/parquet,
+/area/ruin/space/has_grav/hotel/fitness)
 "tp" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/structure/sign/warning/fire{
@@ -4973,6 +4948,14 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/guestroom/room_2)
+"ts" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/hotel/maintenance)
 "tu" = (
 /obj/machinery/light/directional/north,
 /obj/structure/table,
@@ -4983,17 +4966,28 @@
 /obj/machinery/newscaster/directional/north,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/hotel/security)
+"ty" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/vending/wardrobe/bar_wardrobe{
+	default_price = 0;
+	extra_price = 0;
+	fair_market_price = 0
+	},
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/hotel/maintenance)
 "tz" = (
 /obj/machinery/light/warm/directional/north,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood/tile,
 /area/ruin/space/has_grav/hotel/guestroom/room_10)
 "tA" = (
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 4
 	},
 /turf/open/floor/iron/dark/textured,
 /area/ruin/space/has_grav/hotel/hall_aft)
@@ -5066,8 +5060,8 @@
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/hall_aft)
 "tG" = (
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/hotel/power)
@@ -5105,9 +5099,8 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
-/obj/structure/lattice/catwalk/plated/smooth,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/hotel/maintenance)
+/turf/open/floor/iron/textured_half,
+/area/ruin/space/has_grav/hotel/fitness)
 "tO" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
@@ -5153,13 +5146,29 @@
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/hotel/hall_aft)
 "tU" = (
-/obj/structure/grille,
-/turf/template_noop,
-/area/template_noop)
-"tZ" = (
-/obj/effect/turf_decal/siding/wood,
+/obj/structure/chair/stool/bar/directional/west{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/hotel/bar)
+"tW" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/hotel/maintenance)
+"tY" = (
+/obj/structure/cable,
+/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav/hotel/sauna)
+/area/ruin/space/has_grav/hotel/fitness)
 "uc" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -5188,19 +5197,25 @@
 /obj/effect/mapping_helpers/paint_wall/hotel,
 /turf/closed/wall,
 /area/ruin/space/has_grav/hotel/dining_hall)
+"uh" = (
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 6
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 6
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/hotel/security)
 "ul" = (
 /turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/hotel/power)
-"un" = (
-/obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 9
-	},
-/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
+"uo" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
-/turf/open/floor/iron/white/textured_large,
-/area/ruin/space/has_grav/hotel/kitchen)
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/hotel/docking_hall)
 "uq" = (
 /obj/structure/mirror/directional/east,
 /obj/structure/sink{
@@ -5252,12 +5267,6 @@
 /obj/effect/mapping_helpers/paint_wall/hotel,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/hotel/bar_backroom)
-"uz" = (
-/obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
-/turf/open/floor/iron/dark/textured,
-/area/ruin/space/has_grav/hotel/hall_aft)
 "uB" = (
 /obj/effect/spawner/structure/window/plasma/reinforced,
 /turf/open/floor/plating,
@@ -5310,12 +5319,38 @@
 /obj/structure/window/reinforced,
 /turf/open/floor/grass,
 /area/ruin/space/has_grav/hotel/hydroponics)
+"uP" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/turf/open/floor/iron/dark/textured,
+/area/ruin/space/has_grav/hotel/hall_aft)
 "uQ" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/hotel/hall_fore)
+"uR" = (
+/obj/structure/cable,
+/obj/structure/lattice/catwalk/plated/smooth,
+/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/hotel/maintenance)
+"uS" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/iron/textured_half{
+	dir = 1
+	},
+/area/ruin/space/has_grav/hotel/fitness)
 "uT" = (
 /obj/machinery/firealarm/directional/east,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -5341,6 +5376,12 @@
 	dir = 1
 	},
 /area/ruin/space/has_grav/hotel/hydroponics)
+"uX" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood/parquet,
+/area/ruin/space/has_grav/hotel/fitness)
 "uY" = (
 /obj/effect/turf_decal/siding/wood/corner,
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
@@ -5400,15 +5441,6 @@
 	},
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/hotel/dining_hall)
-"vf" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 5
-	},
-/obj/effect/turf_decal/siding/wood{
-	dir = 8
-	},
-/turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav/hotel/sauna)
 "vg" = (
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron/textured_half,
@@ -5441,6 +5473,17 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/hotel/security)
+"vn" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
+	dir = 1
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/textured,
+/area/ruin/space/has_grav/hotel/hall_aft)
 "vr" = (
 /obj/item/radio/intercom/directional/west,
 /turf/open/floor/iron/white/textured_half{
@@ -5483,14 +5526,14 @@
 	dir = 4
 	},
 /area/ruin/space/has_grav/hotel/hydroponics)
-"vy" = (
-/obj/machinery/door/airlock/public/glass{
-	name = "Pool's Closed"
+"vA" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/fancy/cigarettes/cigars,
+/obj/item/storage/fancy/cigarettes/cigars/havana{
+	pixel_y = 4
 	},
-/turf/open/floor/iron/textured_half{
-	dir = 1
-	},
-/area/ruin/space/has_grav/hotel/sauna)
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/hotel/bar)
 "vB" = (
 /obj/structure/chair/comfy/brown{
 	dir = 8
@@ -5504,6 +5547,12 @@
 	},
 /turf/open/floor/iron/dark/textured,
 /area/ruin/space/has_grav/hotel/bar)
+"vD" = (
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/hotel/power)
 "vF" = (
 /obj/structure/chair/comfy/brown{
 	dir = 8
@@ -5511,6 +5560,17 @@
 /obj/machinery/light/directional/east,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/hotel/dining_hall)
+"vH" = (
+/obj/structure/cable,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 5
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/hotel/maintenance)
 "vI" = (
 /obj/machinery/airalarm/directional/east,
 /obj/effect/turf_decal/siding/wood{
@@ -5538,38 +5598,18 @@
 /obj/machinery/smartfridge/food,
 /turf/closed/wall,
 /area/ruin/space/has_grav/hotel/kitchen)
-"vR" = (
-/obj/structure/cable,
+"vS" = (
+/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/hotel/security)
+"vV" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
 	dir = 8
 	},
 /obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
 	dir = 8
-	},
-/turf/open/floor/iron/dark/textured,
-/area/ruin/space/has_grav/hotel/hall_aft)
-"vS" = (
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 6
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 6
-	},
-/turf/open/floor/iron,
-/area/ruin/space/has_grav/hotel/security)
-"vT" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/table/optable{
-	name = "Massage Table"
-	},
-/turf/open/floor/iron/dark/textured,
-/area/ruin/space/has_grav/hotel/fitness)
-"vV" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 5
 	},
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/hotel/docking_hall)
@@ -5578,11 +5618,14 @@
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/hotel/docking_hall)
 "wa" = (
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
+/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
+	dir = 1
 	},
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
 	},
 /turf/open/floor/wood/parquet,
 /area/ruin/space/has_grav/hotel/sauna)
@@ -5612,13 +5655,6 @@
 /obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/hotel/power)
-"wl" = (
-/obj/effect/turf_decal/siding/wood,
-/obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
-/turf/open/floor/carpet/black,
-/area/ruin/space/has_grav/hotel/hall_fore)
 "wo" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
@@ -5648,6 +5684,14 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/hall_fore)
+"wt" = (
+/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/structure/lattice/catwalk/plated/dark,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/hotel/docking_hall)
 "wu" = (
 /obj/machinery/power/apc/auto_name/north,
 /obj/structure/closet/crate/bin,
@@ -5659,10 +5703,6 @@
 /obj/effect/mapping_helpers/paint_wall/hotel,
 /turf/closed/wall,
 /area/ruin/space/has_grav/hotel/custodial)
-"ww" = (
-/obj/machinery/light/directional/north,
-/turf/open/floor/iron/textured_half,
-/area/ruin/space/has_grav/hotel/fitness)
 "wx" = (
 /obj/machinery/vending/hydroseeds{
 	default_price = 0;
@@ -5715,15 +5755,18 @@
 /area/ruin/space/has_grav/hotel/hall_fore)
 "wI" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
 	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/hotel/security)
 "wJ" = (
-/turf/open/floor/iron/smooth,
-/area/ruin/space/has_grav/hotel/maintenance)
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron/sepia,
+/area/ruin/space/has_grav/hotel/fitness)
 "wL" = (
 /obj/structure/chair{
 	dir = 8
@@ -5774,9 +5817,16 @@
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/hotel/bar_backroom)
 "wU" = (
-/obj/structure/chair/stool/bar/directional/south,
-/turf/open/floor/iron/textured_half,
-/area/ruin/space/has_grav/hotel/fitness)
+/obj/machinery/door/airlock/maintenance{
+	name = "Hotel Maintenance";
+	req_access_txt = "200,201"
+	},
+/obj/structure/cable,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/hotel/maintenance)
 "wV" = (
 /obj/structure/rack/shelf,
 /obj/item/toy/crayon/spraycan{
@@ -5813,19 +5863,12 @@
 /obj/machinery/light_switch/directional/south,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/hotel/first_aid)
-"xi" = (
-/obj/structure/closet/secure_closet/personal,
+"xf" = (
+/obj/structure/cable,
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
-/obj/effect/turf_decal/siding/wood{
-	dir = 1
-	},
-/turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav/hotel/sauna)
-"xj" = (
-/obj/machinery/light/directional/south,
-/turf/open/floor/iron/sepia,
-/area/ruin/space/has_grav/hotel/fitness)
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/hotel/custodial)
 "xk" = (
 /obj/machinery/vending/snack/teal,
 /turf/open/floor/iron/smooth,
@@ -5865,6 +5908,17 @@
 /obj/item/boombox,
 /turf/open/floor/carpet/royalblack,
 /area/ruin/space/has_grav/hotel/guestroom/room_10)
+"xC" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/textured,
+/area/ruin/space/has_grav/hotel/hall_aft)
 "xE" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
@@ -5883,9 +5937,7 @@
 /area/ruin/space/has_grav/hotel/kitchen)
 "xJ" = (
 /obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 5
-	},
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/hotel/bar)
 "xN" = (
@@ -5913,6 +5965,16 @@
 	},
 /turf/open/floor/wood/tile,
 /area/ruin/space/has_grav/hotel/guestroom/room_10)
+"xR" = (
+/obj/effect/mapping_helpers/paint_wall/hotel,
+/obj/machinery/door/airlock/public/glass{
+	name = "Main hall"
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/iron/textured_half,
+/area/ruin/space/has_grav/hotel/bar)
 "xT" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -5963,22 +6025,10 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /turf/open/floor/carpet/royalblack,
 /area/ruin/space/has_grav/hotel/guestroom/room_10)
-"yj" = (
-/obj/machinery/door/airlock/public/glass{
-	name = "Pool's Closed"
-	},
-/obj/structure/barricade/wooden/crude,
-/turf/open/floor/iron/textured_half{
-	dir = 1
-	},
-/area/ruin/space/has_grav/hotel/fitness)
 "yk" = (
-/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/obj/machinery/hydroponics/constructable,
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 5
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
+	dir = 4
 	},
 /turf/open/floor/iron/textured,
 /area/ruin/space/has_grav/hotel/hydroponics)
@@ -6087,9 +6137,7 @@
 /area/ruin/space/has_grav/hotel/guestroom/room_9)
 "yS" = (
 /obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
-	dir = 8
-	},
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /turf/open/floor/iron/white/textured_large,
 /area/ruin/space/has_grav/hotel/kitchen)
@@ -6104,13 +6152,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/hotel/bar_backroom)
-"yZ" = (
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 6
-	},
-/turf/open/floor/iron/dark,
-/area/ruin/space/has_grav/hotel/docking_hall)
 "zb" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -6146,6 +6187,17 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/guestroom/room_8)
+"zg" = (
+/obj/structure/cable,
+/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/hotel/maintenance)
 "zh" = (
 /obj/machinery/light_switch/directional/north,
 /obj/structure/cable,
@@ -6156,6 +6208,14 @@
 	dir = 6
 	},
 /turf/open/floor/carpet/black,
+/area/ruin/space/has_grav/hotel/hall_aft)
+"zj" = (
+/obj/structure/cable,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 9
+	},
+/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4,
+/turf/open/floor/iron/dark/textured,
 /area/ruin/space/has_grav/hotel/hall_aft)
 "zn" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
@@ -6170,12 +6230,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/hotel/docking_hall)
-"zr" = (
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
-/obj/structure/lattice/catwalk/plated/dark,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/hotel/docking_hall)
 "zt" = (
 /obj/machinery/door/firedoor,
 /obj/effect/spawner/structure/window/reinforced,
@@ -6184,9 +6238,7 @@
 /area/ruin/space/has_grav/hotel/guestroom/room_8)
 "zx" = (
 /obj/structure/closet/secure_closet/personal,
-/obj/effect/turf_decal/siding/wood{
-	dir = 1
-	},
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood/parquet,
 /area/ruin/space/has_grav/hotel/sauna)
 "zz" = (
@@ -6198,6 +6250,10 @@
 	},
 /turf/open/floor/iron/showroomfloor,
 /area/ruin/space/has_grav/hotel/guestroom/room_1)
+"zA" = (
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/textured_half,
+/area/ruin/space/has_grav/hotel/fitness)
 "zE" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -6216,10 +6272,6 @@
 	},
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/hotel/guestroom/room_2)
-"zI" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/iron/smooth,
-/area/ruin/space/has_grav/hotel/maintenance)
 "zJ" = (
 /obj/structure/table/wood,
 /obj/structure/cable,
@@ -6238,16 +6290,17 @@
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/dining_hall)
 "zM" = (
+/obj/structure/cable,
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
-/turf/open/floor/iron/smooth,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
 /area/ruin/space/has_grav/hotel/maintenance)
-"zN" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
-/turf/open/floor/iron,
-/area/ruin/space/has_grav/hotel/security)
 "zP" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/firedoor,
@@ -6272,8 +6325,12 @@
 /area/ruin/space/has_grav/hotel/bar_backroom)
 "Aa" = (
 /obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
 /turf/open/floor/iron/dark/textured,
 /area/ruin/space/has_grav/hotel/hall_fore)
 "Ab" = (
@@ -6376,22 +6433,12 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/hotel/security)
 "Au" = (
-/turf/open/floor/iron/sepia,
-/area/ruin/space/has_grav/hotel/fitness)
-"Aw" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
-/obj/structure/cable,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
-	dir = 1
-	},
-/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
-	dir = 1
-	},
-/turf/open/floor/carpet/black,
-/area/ruin/space/has_grav/hotel/hall_fore)
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood/parquet,
+/area/ruin/space/has_grav/hotel/fitness)
 "Ay" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
@@ -6405,24 +6452,6 @@
 /obj/machinery/firealarm/directional/south,
 /turf/open/floor/iron/white/textured_half,
 /area/ruin/space/has_grav/hotel/kitchen)
-"AA" = (
-/obj/structure/cable,
-/obj/effect/turf_decal/siding/wood/corner{
-	dir = 8
-	},
-/obj/effect/turf_decal/siding/wood/corner,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
-/turf/open/floor/carpet/black,
-/area/ruin/space/has_grav/hotel/hall_fore)
-"AB" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
-/turf/open/floor/iron/textured_corner{
-	dir = 1
-	},
-/area/ruin/space/has_grav/hotel/fitness)
 "AE" = (
 /obj/structure/table,
 /obj/item/reagent_containers/food/condiment/saltshaker{
@@ -6492,6 +6521,10 @@
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/hall_fore)
 "AS" = (
+/obj/structure/chair/stool/bar/directional/south,
+/turf/open/floor/iron/textured_half,
+/area/ruin/space/has_grav/hotel/fitness)
+"AT" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
@@ -6515,13 +6548,6 @@
 /obj/machinery/light/directional/north,
 /turf/open/floor/iron/smooth,
 /area/ruin/space/has_grav/hotel/maintenance)
-"AW" = (
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/obj/effect/turf_decal/siding/wood,
-/turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav/hotel/fitness)
 "AX" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
@@ -6535,27 +6561,16 @@
 	},
 /turf/open/floor/iron/showroomfloor,
 /area/ruin/space/has_grav/hotel/guestroom/room_6)
-"Bb" = (
-/turf/closed/wall,
-/area/ruin/space/has_grav/hotel/fitness)
 "Bg" = (
 /obj/structure/chair/sofa/bench,
 /obj/machinery/light/warm/directional/north,
 /turf/open/floor/iron/textured_half,
 /area/ruin/space/has_grav/hotel/sauna)
 "Bh" = (
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/machinery/shower{
-	dir = 1
-	},
-/obj/structure/curtain,
-/obj/effect/turf_decal/siding/wood{
-	dir = 1
-	},
-/turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav/hotel/sauna)
+/obj/effect/turf_decal/siding/wood,
+/obj/machinery/vending/snack/blue,
+/turf/open/floor/carpet/black,
+/area/ruin/space/has_grav/hotel/hall_fore)
 "Bi" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin,
@@ -6603,17 +6618,6 @@
 	},
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/dining_hall)
-"Bq" = (
-/obj/structure/cable,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
-	dir = 1
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/turf/open/floor/iron/dark/textured,
-/area/ruin/space/has_grav/hotel/hall_aft)
 "Br" = (
 /obj/structure/dresser,
 /obj/effect/turf_decal/siding/wood{
@@ -6628,13 +6632,6 @@
 	},
 /turf/open/floor/iron/white/textured_large,
 /area/ruin/space/has_grav/hotel/kitchen)
-"Bt" = (
-/obj/effect/turf_decal/siding/wood,
-/obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4,
-/turf/open/floor/carpet/black,
-/area/ruin/space/has_grav/hotel/hall_fore)
 "Bv" = (
 /obj/structure/rack/shelf,
 /obj/item/stack/tile/carpet/neon/simple/lime/nodots/sixty{
@@ -6662,14 +6659,6 @@
 /obj/machinery/light/directional/west,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/hotel/guestroom/room_4)
-"By" = (
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 9
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
-/obj/structure/lattice/catwalk/plated/smooth,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/hotel/security)
 "BC" = (
 /obj/effect/mapping_helpers/paint_wall/hotel,
 /turf/closed/wall,
@@ -6682,7 +6671,8 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
-/turf/open/floor/iron/dark,
+/obj/structure/lattice/catwalk/plated/dark,
+/turf/open/floor/plating,
 /area/ruin/space/has_grav/hotel/docking_hall)
 "BH" = (
 /obj/structure/cable,
@@ -6705,20 +6695,13 @@
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/guestroom/room_1)
 "BM" = (
-/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
-	dir = 1
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/effect/turf_decal/siding/wood{
-	dir = 8
-	},
-/turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav/hotel/sauna)
+/obj/effect/mapping_helpers/paint_wall/hotel,
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/general/hidden,
+/turf/closed/wall,
+/area/ruin/space/has_grav/hotel/guestroom/room_10)
 "BN" = (
 /obj/effect/turf_decal/siding/wood{
-	dir = 4
+	dir = 6
 	},
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -6756,19 +6739,9 @@
 /turf/closed/wall,
 /area/ruin/space/has_grav/hotel/guestroom/room_9)
 "Cd" = (
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/machinery/shower{
-	pixel_x = 2;
-	pixel_y = 16
-	},
-/obj/structure/curtain,
-/obj/effect/turf_decal/siding/wood{
-	dir = 6
-	},
-/turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav/hotel/sauna)
+/obj/machinery/space_heater,
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/hotel/maintenance)
 "Ce" = (
 /turf/open/floor/iron/textured_corner{
 	dir = 4
@@ -6813,15 +6786,8 @@
 /area/ruin/space/has_grav/hotel/bar)
 "Ck" = (
 /obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
-	dir = 4
-	},
-/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
-	dir = 8
-	},
-/obj/effect/turf_decal/siding/wood{
-	dir = 1
-	},
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /turf/open/floor/wood/parquet,
 /area/ruin/space/has_grav/hotel/fitness)
 "Cl" = (
@@ -6831,6 +6797,19 @@
 	},
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/hotel/bar)
+"Cm" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
+	dir = 1
+	},
+/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
+	dir = 1
+	},
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/hotel/maintenance)
 "Cp" = (
 /obj/structure/table/wood,
 /obj/effect/turf_decal/siding/wood/corner{
@@ -6841,6 +6820,14 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/bar)
+"Cq" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/machinery/firealarm/directional/north,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/carpet/black,
+/area/ruin/space/has_grav/hotel/hall_fore)
 "Cr" = (
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 1
@@ -6857,10 +6844,11 @@
 /area/ruin/space/has_grav/hotel/hydroponics)
 "Cs" = (
 /obj/structure/closet/secure_closet/personal,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 9
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
 	},
-/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4,
 /turf/open/floor/wood/parquet,
 /area/ruin/space/has_grav/hotel/sauna)
 "Cu" = (
@@ -6899,8 +6887,20 @@
 "CE" = (
 /obj/machinery/light/directional/north,
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/vending/clothing{
+	default_price = 0;
+	extra_price = 0;
+	fair_market_price = 0
+	},
 /turf/open/floor/iron/smooth,
 /area/ruin/space/has_grav/hotel/maintenance)
+"CI" = (
+/obj/structure/closet/secure_closet/personal,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood/parquet,
+/area/ruin/space/has_grav/hotel/sauna)
 "CM" = (
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/hotel/guestroom/room_1)
@@ -6933,12 +6933,24 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /turf/open/floor/iron/dark/textured,
 /area/ruin/space/has_grav/hotel/dining_hall)
+"CW" = (
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 9
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/hotel/security)
 "CX" = (
 /obj/structure/chair/sofa/left{
 	dir = 8
 	},
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/hotel/guestroom/room_1)
+"CY" = (
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/hotel/fitness)
 "Db" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/structure/sign/warning/fire{
@@ -6973,15 +6985,6 @@
 	},
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/hall_fore)
-"Dd" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/machinery/vending/wardrobe/bar_wardrobe{
-	default_price = 0;
-	extra_price = 0;
-	fair_market_price = 0
-	},
-/turf/open/floor/iron/smooth,
-/area/ruin/space/has_grav/hotel/maintenance)
 "Df" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -6991,17 +6994,6 @@
 	},
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/dining_hall)
-"Dg" = (
-/obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 5
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 5
-	},
-/obj/structure/lattice/catwalk/plated/smooth,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/hotel/maintenance)
 "Dh" = (
 /obj/machinery/power/smes/engineering,
 /obj/effect/turf_decal/tile/yellow{
@@ -7013,16 +7005,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron/smooth,
 /area/ruin/space/has_grav/hotel/power)
-"Di" = (
-/obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/turf/open/floor/iron/textured_half,
-/area/ruin/space/has_grav/hotel/fitness)
 "Dk" = (
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron/dark,
@@ -7086,13 +7068,16 @@
 /turf/open/floor/iron/dark/textured_half,
 /area/ruin/space/has_grav/hotel/hydroponics)
 "DB" = (
-/obj/structure/cable,
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 10
+	dir = 8
 	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
-/turf/open/floor/iron,
-/area/ruin/space/has_grav/hotel/custodial)
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/structure/lattice/catwalk/plated/smooth,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/hotel/maintenance)
 "DC" = (
 /obj/machinery/chem_master,
 /obj/machinery/light/directional/north,
@@ -7113,17 +7098,6 @@
 	},
 /turf/open/floor/iron/vaporwave,
 /area/ruin/space/has_grav/hotel/guestroom/room_8)
-"DG" = (
-/obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
-	dir = 4
-	},
-/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/structure/lattice/catwalk/plated/smooth,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/hotel/maintenance)
 "DH" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
 /obj/machinery/hydroponics/constructable,
@@ -7180,12 +7154,25 @@
 /obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/hotel/power)
+"DP" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/carpet/black,
+/area/ruin/space/has_grav/hotel/hall_fore)
 "DQ" = (
 /obj/structure/chair/comfy/brown{
 	dir = 4
 	},
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/hotel/dining_hall)
+"DT" = (
+/obj/item/cardboard_cutout,
+/turf/open/floor/iron/textured_half,
+/area/ruin/space/has_grav/hotel/fitness)
 "DW" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
@@ -7237,11 +7224,14 @@
 /turf/open/floor/iron/dark/textured_half,
 /area/ruin/space/has_grav/hotel/hydroponics)
 "Ee" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/firedoor,
-/obj/effect/mapping_helpers/paint_wall/hotel,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/hotel/sauna)
+/obj/structure/table/reinforced,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "hotelbarshutters";
+	name = "Bar Shutters"
+	},
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/hotel/bar)
 "Ef" = (
 /obj/structure/cable,
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
@@ -7317,13 +7307,6 @@
 	},
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/hall_fore)
-"Ex" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
-/obj/structure/lattice/catwalk/plated/dark,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/hotel/docking_hall)
 "Ey" = (
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
@@ -7364,10 +7347,6 @@
 	},
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/hotel/bar)
-"EG" = (
-/obj/structure/chair/stool/bar/directional/south,
-/turf/open/floor/iron/textured_corner,
-/area/ruin/space/has_grav/hotel/fitness)
 "EH" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -7409,6 +7388,17 @@
 "EN" = (
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/hotel/guestroom/room_6)
+"EO" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
+	dir = 1
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/structure/lattice/catwalk/plated/dark,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/hotel/docking_hall)
 "EP" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 8
@@ -7437,21 +7427,6 @@
 	},
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/dining_hall)
-"ER" = (
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/turf/open/floor/iron/dark/textured,
-/area/ruin/space/has_grav/hotel/dining_hall)
-"ES" = (
-/obj/effect/turf_decal/siding/wood,
-/turf/open/floor/iron/textured_corner{
-	dir = 1
-	},
-/area/ruin/space/has_grav/hotel/fitness)
 "EV" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -7506,6 +7481,15 @@
 	},
 /turf/open/floor/iron/grimy,
 /area/ruin/space/has_grav/hotel/dining_hall)
+"Fh" = (
+/obj/structure/reagent_dispensers,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/hotel/bar)
+"Fj" = (
+/turf/open/floor/iron/textured_corner{
+	dir = 8
+	},
+/area/ruin/space/has_grav/hotel/fitness)
 "Fk" = (
 /obj/structure/table,
 /obj/effect/turf_decal/trimline/green/filled/line,
@@ -7579,6 +7563,16 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/hotel/maintenance)
+"Ft" = (
+/obj/structure/cable,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/textured,
+/area/ruin/space/has_grav/hotel/hall_aft)
 "Fu" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -7600,16 +7594,6 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/hall_aft)
-"FE" = (
-/obj/machinery/hydroponics/constructable,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/turf/open/floor/iron/textured,
-/area/ruin/space/has_grav/hotel/hydroponics)
 "FF" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
@@ -7617,20 +7601,8 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/hotel/first_aid)
 "FG" = (
-/obj/machinery/door/airlock/maintenance{
-	name = "Hotel Maintenance";
-	req_access_txt = "200,201"
-	},
-/obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/structure/lattice/catwalk/plated/smooth,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/hotel/maintenance)
+/turf/open/floor/iron/sepia,
+/area/ruin/space/has_grav/hotel/fitness)
 "FI" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -7652,6 +7624,10 @@
 /obj/item/bedsheet/random,
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/guestroom/room_7)
+"FL" = (
+/obj/machinery/vending/cola/black,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/hotel/hall_fore)
 "FN" = (
 /obj/structure/toilet{
 	dir = 8;
@@ -7679,12 +7655,6 @@
 	},
 /turf/open/floor/engine/air,
 /area/ruin/space/has_grav/hotel/power)
-"FR" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 9
-	},
-/turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav/hotel/sauna)
 "FS" = (
 /obj/structure/table/reinforced,
 /obj/item/clothing/mask/cigarette{
@@ -7770,9 +7740,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/hotel/docking_hall)
-"Ga" = (
-/turf/open/floor/iron/textured_corner,
-/area/ruin/space/has_grav/hotel/sauna)
 "Gb" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 6
@@ -7839,6 +7806,16 @@
 /obj/item/radio/intercom/directional/north,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/hotel/first_aid)
+"Gn" = (
+/obj/structure/cable,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/hotel/bar)
 "Go" = (
 /obj/structure/table,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -7863,29 +7840,20 @@
 	},
 /turf/open/floor/iron/white/textured_half,
 /area/ruin/space/has_grav/hotel/kitchen)
+"Gt" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 10
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 10
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/hotel/security)
 "Gw" = (
 /obj/structure/fireplace,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/hotel/guestroom/room_3)
-"GA" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
-	dir = 1
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/structure/lattice/catwalk/plated/dark,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/hotel/docking_hall)
-"GB" = (
-/obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
-	dir = 1
-	},
-/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4,
-/turf/open/floor/wood,
-/area/ruin/space/has_grav/hotel/bar)
 "GC" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Hotel Maintenance";
@@ -7924,16 +7892,12 @@
 /obj/structure/cable,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/hotel/guestroom/room_7)
-"GM" = (
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "hotelbarshutters";
-	name = "Bar Shutters"
-	},
+"GN" = (
 /obj/effect/turf_decal/siding/wood{
-	dir = 8
+	dir = 9
 	},
-/turf/open/floor/iron/dark,
-/area/ruin/space/has_grav/hotel/bar)
+/turf/open/floor/wood/parquet,
+/area/ruin/space/has_grav/hotel/sauna)
 "GO" = (
 /obj/structure/extinguisher_cabinet/directional/north,
 /turf/open/floor/iron/dark,
@@ -7983,6 +7947,7 @@
 /turf/open/floor/iron/smooth,
 /area/ruin/space/has_grav/hotel/maintenance)
 "GZ" = (
+/obj/machinery/hydroponics/constructable,
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
 	},
@@ -8013,15 +7978,19 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/hotel/security)
+"Hc" = (
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron/textured,
+/area/ruin/space/has_grav/hotel/hydroponics)
 "Hg" = (
 /obj/machinery/vending/coffee,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/hotel/hall_fore)
-"Hh" = (
-/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4,
-/turf/open/floor/iron,
-/area/ruin/space/has_grav/hotel/security)
 "Hj" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -8089,26 +8058,13 @@
 	},
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/hall_fore)
-"HD" = (
-/obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/turf/open/floor/wood,
-/area/ruin/space/has_grav/hotel/bar)
 "HE" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
+/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
 	dir = 8
 	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/turf/open/floor/iron/dark,
-/area/ruin/space/has_grav/hotel/docking_hall)
+/turf/open/floor/iron/dark/textured,
+/area/ruin/space/has_grav/hotel/dining_hall)
 "HH" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
@@ -8158,12 +8114,8 @@
 /area/ruin/space/has_grav/hotel/power)
 "HP" = (
 /obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /turf/open/floor/iron/dark/textured,
 /area/ruin/space/has_grav/hotel/hall_aft)
 "HQ" = (
@@ -8276,13 +8228,6 @@
 /obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/hotel/power)
-"Ij" = (
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
-/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/turf/open/floor/iron/dark/textured,
-/area/ruin/space/has_grav/hotel/dining_hall)
 "Ik" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -8290,9 +8235,6 @@
 /obj/item/radio/intercom/directional/north,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/hotel/dining_hall)
-"Im" = (
-/turf/open/floor/iron/smooth,
-/area/ruin/space/has_grav/hotel/security)
 "Io" = (
 /obj/effect/mapping_helpers/paint_wall/hotel,
 /turf/closed/wall,
@@ -8314,22 +8256,16 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/guestroom/room_2)
+"Is" = (
+/turf/open/floor/iron/textured_corner{
+	dir = 8
+	},
+/area/ruin/space/has_grav/hotel/sauna)
 "Iv" = (
 /obj/structure/curtain/bounty,
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark/textured,
 /area/ruin/space/has_grav/hotel/sauna)
-"Iy" = (
-/obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
-	dir = 1
-	},
-/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
-	dir = 1
-	},
-/obj/structure/lattice/catwalk/plated/smooth,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/hotel/maintenance)
 "IA" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /obj/machinery/light/directional/north,
@@ -8365,15 +8301,6 @@
 	dir = 1
 	},
 /area/ruin/space/has_grav/hotel/sauna)
-"IK" = (
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 5
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 9
-	},
-/turf/open/floor/wood,
-/area/ruin/space/has_grav/hotel/bar)
 "IM" = (
 /obj/structure/chair/comfy/brown{
 	dir = 1
@@ -8402,8 +8329,9 @@
 	},
 /area/ruin/space/has_grav/hotel/sauna)
 "IT" = (
-/turf/closed/wall,
-/area/ruin/space/has_grav/hotel/sauna)
+/obj/structure/table/reinforced,
+/turf/open/floor/iron/textured_half,
+/area/ruin/space/has_grav/hotel/fitness)
 "IU" = (
 /obj/structure/chair/sofa/bench/left{
 	dir = 8
@@ -8497,14 +8425,13 @@
 /turf/open/floor/iron/smooth,
 /area/ruin/space/has_grav/hotel/power)
 "Jk" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 6
-	},
-/obj/effect/turf_decal/siding/wood{
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
 	dir = 8
 	},
-/turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav/hotel/sauna)
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/hotel/security)
 "Jm" = (
 /obj/structure/cable,
 /obj/machinery/light/small/directional/north,
@@ -8547,12 +8474,10 @@
 	},
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/bar)
-"Jw" = (
-/obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
-/turf/open/floor/iron/white/textured_large,
-/area/ruin/space/has_grav/hotel/kitchen)
+"Jx" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/hotel/maintenance)
 "Jy" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -8608,25 +8533,6 @@
 	},
 /turf/open/floor/iron/smooth,
 /area/ruin/space/has_grav/hotel/security)
-"JG" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 6
-	},
-/obj/effect/turf_decal/siding/wood{
-	dir = 8
-	},
-/turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav/hotel/fitness)
-"JH" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/turf/open/floor/iron,
-/area/ruin/space/has_grav/hotel/security)
 "JI" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 6
@@ -8658,14 +8564,6 @@
 /obj/structure/closet,
 /turf/open/floor/iron/smooth,
 /area/ruin/space/has_grav/hotel/maintenance)
-"JM" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 1
-	},
-/obj/machinery/firealarm/directional/north,
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/carpet/black,
-/area/ruin/space/has_grav/hotel/hall_fore)
 "JO" = (
 /obj/structure/chair/sofa/bench{
 	dir = 1
@@ -8673,6 +8571,12 @@
 /obj/machinery/light/warm/directional/south,
 /turf/open/floor/iron/textured_half,
 /area/ruin/space/has_grav/hotel/sauna)
+"JQ" = (
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/iron/textured_corner{
+	dir = 1
+	},
+/area/ruin/space/has_grav/hotel/fitness)
 "JR" = (
 /obj/structure/cable,
 /obj/machinery/light/small/directional/north,
@@ -8721,20 +8625,11 @@
 /turf/open/floor/wood/parquet,
 /area/ruin/space/has_grav/hotel/fitness)
 "Ki" = (
-/obj/machinery/door/airlock/freezer{
-	name = "Freezer";
-	req_access_txt = "200"
-	},
-/obj/machinery/door/firedoor,
-/obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/turf/open/floor/iron/freezer,
-/area/ruin/space/has_grav/hotel/kitchen)
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/hotel/security)
 "Kj" = (
 /obj/structure/cable,
 /obj/machinery/door/airlock{
@@ -8780,13 +8675,19 @@
 	},
 /area/ruin/space/has_grav/hotel/hydroponics)
 "Ks" = (
-/obj/item/cardboard_cutout,
-/turf/open/floor/iron/sepia,
-/area/ruin/space/has_grav/hotel/fitness)
-"Ku" = (
-/obj/item/cardboard_cutout,
-/turf/open/floor/iron/textured_half,
-/area/ruin/space/has_grav/hotel/fitness)
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
+	dir = 1
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/carpet/black,
+/area/ruin/space/has_grav/hotel/hall_fore)
 "Kw" = (
 /obj/structure/lattice/catwalk,
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
@@ -8800,10 +8701,10 @@
 /area/ruin/space/has_grav/hotel/hall_fore)
 "Ky" = (
 /obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
 	},
+/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4,
 /turf/open/floor/iron/freezer,
 /area/ruin/space/has_grav/hotel/kitchen)
 "KA" = (
@@ -8842,6 +8743,18 @@
 /obj/structure/table/wood,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/hotel/guestroom/room_2)
+"KE" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/hotel/maintenance)
 "KF" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
@@ -8885,10 +8798,6 @@
 /obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/hotel/power)
-"KN" = (
-/obj/machinery/light/directional/north,
-/turf/open/floor/iron/dark,
-/area/ruin/space/has_grav/hotel/fitness)
 "KO" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/white/textured_half{
@@ -8914,13 +8823,12 @@
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/guestroom/room_7)
 "KR" = (
-/obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
-/obj/machinery/door/airlock/public/glass{
-	name = "Main hall"
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
 	},
-/turf/open/floor/iron/textured_half,
+/turf/open/floor/iron/textured_corner{
+	dir = 1
+	},
 /area/ruin/space/has_grav/hotel/fitness)
 "KT" = (
 /obj/effect/turf_decal/trimline/green/filled/corner{
@@ -8938,26 +8846,10 @@
 	},
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/teleporter)
-"KW" = (
-/obj/structure/cable,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
-/turf/open/floor/iron/dark,
-/area/ruin/space/has_grav/hotel/bar)
 "KX" = (
 /obj/machinery/door/airlock/wood,
 /turf/open/floor/iron/textured_half,
 /area/ruin/space/has_grav/hotel/sauna)
-"KY" = (
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 9
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/turf/open/floor/iron,
-/area/ruin/space/has_grav/hotel/security)
 "La" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
@@ -8994,12 +8886,6 @@
 	},
 /turf/open/floor/iron/smooth,
 /area/ruin/space/has_grav/hotel/maintenance)
-"Le" = (
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
-/obj/structure/lattice/catwalk/plated/smooth,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/hotel/power)
 "Lg" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/firealarm/directional/west,
@@ -9042,10 +8928,13 @@
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/hotel/bar)
 "Lr" = (
-/obj/structure/closet/secure_closet/personal,
-/obj/effect/turf_decal/siding/wood,
-/turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav/hotel/sauna)
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4,
+/obj/structure/lattice/catwalk/plated/dark,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/hotel/docking_hall)
 "Ls" = (
 /obj/machinery/door/firedoor,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -9054,13 +8943,13 @@
 "Lu" = (
 /turf/open/floor/iron/white/textured_half,
 /area/ruin/space/has_grav/hotel/kitchen)
-"Lw" = (
+"Lz" = (
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
-/turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav/hotel/fitness)
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/hotel/bar)
 "LB" = (
 /obj/structure/chair/sofa/bench/left,
 /obj/machinery/light/directional/north,
@@ -9092,6 +8981,25 @@
 /turf/open/floor/iron/textured_half,
 /area/ruin/space/has_grav/hotel/sauna)
 "LH" = (
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/hotel/docking_hall)
+"LK" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood/corner,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/turf/open/floor/carpet/black,
+/area/ruin/space/has_grav/hotel/hall_fore)
+"LM" = (
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/hotel/docking_hall)
 "LN" = (
@@ -9201,6 +9109,16 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/hotel/bar_backroom)
+"Mi" = (
+/obj/structure/cable,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 5
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 9
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/hotel/workroom)
 "Mk" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 10
@@ -9279,6 +9197,10 @@
 /obj/structure/reagent_dispensers,
 /turf/open/floor/iron/smooth,
 /area/ruin/space/has_grav/hotel/maintenance)
+"ML" = (
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/hotel/fitness)
 "MN" = (
 /obj/machinery/airalarm/directional/north,
 /obj/machinery/vending/cigarette,
@@ -9426,6 +9348,12 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/hotel/guestroom/room_1)
+"Nq" = (
+/obj/structure/cable,
+/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4,
+/turf/open/floor/iron/dark/textured,
+/area/ruin/space/has_grav/hotel/hall_fore)
 "Nr" = (
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
@@ -9478,6 +9406,16 @@
 /obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/hotel/power)
+"ND" = (
+/obj/structure/cable,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 10
+	},
+/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
+	dir = 1
+	},
+/turf/open/floor/iron/white/textured_large,
+/area/ruin/space/has_grav/hotel/kitchen)
 "NF" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/siding/wood{
@@ -9487,6 +9425,24 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/guestroom/room_9)
+"NG" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 9
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/hotel/docking_hall)
+"NH" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Pool's Closed"
+	},
+/turf/open/floor/iron/textured_half{
+	dir = 1
+	},
+/area/ruin/space/has_grav/hotel/sauna)
 "NI" = (
 /obj/structure/chair/sofa/bench/right{
 	dir = 8
@@ -9515,42 +9471,22 @@
 "NM" = (
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/hotel/first_aid)
+"NN" = (
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/iron/textured_half,
+/area/ruin/space/has_grav/hotel/fitness)
 "NP" = (
-/obj/structure/cable,
-/obj/effect/turf_decal/siding/wood/corner{
-	dir = 4
-	},
-/obj/effect/turf_decal/siding/wood/corner{
-	dir = 1
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
-/turf/open/floor/carpet/black,
-/area/ruin/space/has_grav/hotel/hall_fore)
+/obj/machinery/door/firedoor,
+/obj/effect/mapping_helpers/paint_wall/hotel,
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/hotel/security)
 "NQ" = (
 /obj/structure/chair/sofa/left{
 	dir = 8
 	},
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/hotel/guestroom/room_9)
-"NR" = (
-/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/turf/open/floor/iron/dark/textured,
-/area/ruin/space/has_grav/hotel/dining_hall)
-"NT" = (
-/obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
-	dir = 8
-	},
-/obj/structure/lattice/catwalk/plated/smooth,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/hotel/maintenance)
 "NU" = (
 /obj/effect/mob_spawn/human/hotel_staff/security,
 /obj/machinery/light/directional/north,
@@ -9632,10 +9568,6 @@
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/hotel/teleporter)
-"Op" = (
-/obj/structure/table/reinforced,
-/turf/open/floor/iron/textured_half,
-/area/ruin/space/has_grav/hotel/fitness)
 "Os" = (
 /obj/structure/cable,
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
@@ -9643,13 +9575,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/hotel/workroom)
-"Ot" = (
-/obj/machinery/door/airlock/public/glass{
-	name = "Pool's Closed"
-	},
-/obj/structure/barricade/wooden,
-/turf/open/floor/iron/textured_half,
-/area/ruin/space/has_grav/hotel/fitness)
 "Ou" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin,
@@ -9729,21 +9654,6 @@
 	},
 /turf/open/floor/wood/tile,
 /area/ruin/space/has_grav/hotel/guestroom/room_10)
-"OL" = (
-/obj/structure/cable,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 9
-	},
-/obj/effect/turf_decal/siding/wood,
-/turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav/hotel/fitness)
-"OO" = (
-/obj/effect/mapping_helpers/paint_wall/hotel,
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/general/hidden,
-/turf/closed/wall,
-/area/ruin/space/has_grav/hotel/guestroom/room_10)
 "OP" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
@@ -9756,29 +9666,35 @@
 /turf/closed/wall,
 /area/ruin/space/has_grav/hotel/dining_hall)
 "OT" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 4
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 6
 	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 8
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 6
 	},
-/turf/open/floor/wood,
-/area/ruin/space/has_grav/hotel/bar)
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/hotel/maintenance)
 "OU" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood/parquet,
 /area/ruin/space/has_grav/hotel/fitness)
+"OV" = (
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/structure/lattice/catwalk/plated/dark,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/hotel/docking_hall)
+"OY" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/hotel/maintenance)
 "Pa" = (
 /turf/open/floor/iron/dark/textured,
 /area/ruin/space/has_grav/hotel/guestroom/room_4)
-"Pb" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
-/turf/open/floor/iron/textured_half{
-	dir = 1
-	},
-/area/ruin/space/has_grav/hotel/fitness)
 "Pc" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -9794,31 +9710,9 @@
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/guestroom/room_3)
 "Pe" = (
-/obj/structure/cable,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/structure/lattice/catwalk/plated/smooth,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/hotel/maintenance)
-"Pg" = (
-/obj/effect/turf_decal/tile/bar/half{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/bar/half{
-	dir = 8
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 6
-	},
-/turf/open/floor/iron/white/textured_half{
-	dir = 1
-	},
-/area/ruin/space/has_grav/hotel/kitchen)
+/obj/structure/grille,
+/turf/template_noop,
+/area/template_noop)
 "Pk" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
@@ -9832,15 +9726,6 @@
 	},
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/hall_fore)
-"Pn" = (
-/obj/effect/mapping_helpers/paint_wall/hotel,
-/obj/machinery/vending/boozeomat/all_access{
-	extra_price = 0;
-	fair_market_price = 0;
-	default_price = 0
-	},
-/turf/closed/wall,
-/area/ruin/space/has_grav/hotel/bar)
 "Po" = (
 /obj/machinery/light_switch/directional/north,
 /obj/effect/turf_decal/siding/thinplating{
@@ -9866,9 +9751,16 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
-/obj/effect/turf_decal/siding/wood,
-/turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav/hotel/fitness)
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
+	dir = 1
+	},
+/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
+	dir = 1
+	},
+/turf/open/floor/carpet/black,
+/area/ruin/space/has_grav/hotel/hall_fore)
 "Pu" = (
 /obj/structure/chair/stool/bar/directional/west,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -9876,7 +9768,9 @@
 /area/ruin/space/has_grav/hotel/bar)
 "Pv" = (
 /obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 10
+	},
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/hotel/custodial)
@@ -9935,6 +9829,9 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/hotel/bar)
+"PO" = (
+/turf/open/floor/iron/textured_corner,
+/area/ruin/space/has_grav/hotel/sauna)
 "PP" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/structure/cable,
@@ -10064,6 +9961,14 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/hotel/workroom)
+"Qp" = (
+/obj/structure/cable,
+/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron/freezer,
+/area/ruin/space/has_grav/hotel/kitchen)
 "Qq" = (
 /obj/effect/mapping_helpers/paint_wall/hotel,
 /turf/closed/wall,
@@ -10235,16 +10140,32 @@
 /obj/structure/extinguisher_cabinet/directional/north,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/hotel/teleporter)
-"QN" = (
+"QM" = (
 /obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
-	dir = 1
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/hotel/bar_backroom)
+"QR" = (
+/obj/structure/cable,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /turf/open/floor/iron/dark/textured,
 /area/ruin/space/has_grav/hotel/hall_fore)
+"QT" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/shower{
+	dir = 1
+	},
+/obj/structure/curtain,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood/parquet,
+/area/ruin/space/has_grav/hotel/sauna)
 "QY" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
@@ -10282,26 +10203,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/dining_hall)
-"Rg" = (
-/obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 10
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 10
-	},
-/turf/open/floor/iron/textured_half,
-/area/ruin/space/has_grav/hotel/fitness)
-"Rh" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
-	dir = 8
-	},
-/turf/open/floor/iron/dark,
-/area/ruin/space/has_grav/hotel/docking_hall)
 "Rj" = (
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -10315,15 +10216,6 @@
 /obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/hotel/maintenance)
-"Rk" = (
-/obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4,
-/obj/structure/lattice/catwalk/plated/smooth,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/hotel/maintenance)
 "Rl" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 5
@@ -10333,21 +10225,6 @@
 	},
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/dining_hall)
-"Rm" = (
-/obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/machinery/door/airlock/maintenance{
-	name = "Hotel Maintenance";
-	req_access_txt = "200,201"
-	},
-/obj/structure/lattice/catwalk/plated/smooth,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/hotel/maintenance)
 "Rp" = (
 /obj/structure/chair/sofa/left{
 	dir = 8
@@ -10364,22 +10241,43 @@
 	},
 /turf/open/floor/iron/textured_corner,
 /area/ruin/space/has_grav/hotel/sauna)
-"Rr" = (
+"Rs" = (
+/obj/structure/cable,
+/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/hotel/maintenance)
+"Rw" = (
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "hotelbarshutters";
+	name = "Bar Shutters"
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/hotel/bar)
+"Rx" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
 	},
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
-/turf/open/floor/iron/dark,
-/area/ruin/space/has_grav/hotel/docking_hall)
-"Rs" = (
+/turf/open/floor/wood/parquet,
+/area/ruin/space/has_grav/hotel/sauna)
+"Ry" = (
+/obj/effect/turf_decal/siding/wood,
 /obj/structure/cable,
-/obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
-/turf/open/floor/iron/dark/textured,
-/area/ruin/space/has_grav/hotel/hall_aft)
+/turf/open/floor/carpet/black,
+/area/ruin/space/has_grav/hotel/hall_fore)
 "Rz" = (
 /obj/effect/spawner/lootdrop/grille_or_trash,
 /turf/open/floor/iron/smooth,
@@ -10428,9 +10326,14 @@
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/hall_fore)
 "RH" = (
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
-/turf/open/floor/iron/dark/textured,
-/area/ruin/space/has_grav/hotel/hydroponics)
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 9
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/hotel/security)
 "RI" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -10451,16 +10354,16 @@
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/hotel/workroom)
 "RL" = (
+/obj/effect/turf_decal/siding/wood,
 /obj/structure/cable,
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 10
+	dir = 8
 	},
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 10
+	dir = 4
 	},
-/obj/structure/lattice/catwalk/plated/smooth,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/hotel/maintenance)
+/turf/open/floor/carpet/black,
+/area/ruin/space/has_grav/hotel/hall_fore)
 "RN" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/structure/cable,
@@ -10494,16 +10397,12 @@
 /turf/open/floor/iron/vaporwave,
 /area/ruin/space/has_grav/hotel/guestroom/room_8)
 "Sd" = (
-/obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 6
+/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
+	dir = 8
 	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 6
-	},
-/obj/structure/lattice/catwalk/plated/smooth,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/hotel/maintenance)
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/hotel/bar)
 "Sf" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin,
@@ -10560,6 +10459,15 @@
 /obj/item/melee/skateboard/hoverboard,
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/guestroom/room_8)
+"Sz" = (
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/textured,
+/area/ruin/space/has_grav/hotel/hall_aft)
 "SB" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
@@ -10579,10 +10487,6 @@
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/open/floor/iron/smooth,
 /area/ruin/space/has_grav/hotel/maintenance)
-"SJ" = (
-/obj/effect/turf_decal/siding/wood,
-/turf/open/floor/iron/textured_half,
-/area/ruin/space/has_grav/hotel/fitness)
 "SK" = (
 /obj/machinery/light_switch/directional/north,
 /obj/effect/turf_decal/trimline/red/filled/line{
@@ -10590,6 +10494,14 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/hotel/security)
+"SN" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 6
+	},
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/hotel/power)
 "SO" = (
 /obj/structure/window,
 /obj/structure/toilet{
@@ -10610,6 +10522,22 @@
 /obj/item/radio/intercom/directional/west,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/hotel/guestroom/room_1)
+"SR" = (
+/obj/structure/cable,
+/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
+	dir = 1
+	},
+/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
+	dir = 1
+	},
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/hotel/maintenance)
+"SW" = (
+/turf/open/floor/iron/textured_corner{
+	dir = 1
+	},
+/area/ruin/space/has_grav/hotel/sauna)
 "SY" = (
 /obj/structure/chair/sofa/corp/right{
 	dir = 8
@@ -10664,6 +10592,16 @@
 /obj/item/trash/boritos,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/hotel/dining_hall)
+"Tj" = (
+/obj/structure/cable,
+/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
+	dir = 1
+	},
+/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/textured,
+/area/ruin/space/has_grav/hotel/hall_fore)
 "Tl" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
@@ -10676,9 +10614,10 @@
 /area/ruin/space/has_grav/hotel/fitness)
 "Tm" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 9
+	dir = 4
 	},
-/turf/open/floor/iron/dark,
+/obj/structure/lattice/catwalk/plated/dark,
+/turf/open/floor/plating,
 /area/ruin/space/has_grav/hotel/docking_hall)
 "To" = (
 /obj/item/radio/intercom/directional/north,
@@ -10690,6 +10629,10 @@
 	},
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/hotel/guestroom/room_3)
+"Tr" = (
+/obj/machinery/recharge_station,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/hotel/hall_fore)
 "Ts" = (
 /obj/structure/cable,
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
@@ -10706,16 +10649,11 @@
 /area/ruin/space/has_grav/hotel/guestroom/room_3)
 "Tu" = (
 /obj/structure/cable,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
-	dir = 8
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 5
 	},
-/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
-	dir = 8
-	},
-/obj/structure/lattice/catwalk/plated/smooth,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/hotel/maintenance)
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/hotel/bar)
 "Tv" = (
 /obj/structure/table/reinforced,
 /obj/item/kitchen/fork{
@@ -10765,14 +10703,6 @@
 "Ty" = (
 /turf/open/floor/engine/air,
 /area/ruin/space/has_grav/hotel/power)
-"Tz" = (
-/obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4,
-/turf/open/floor/iron/freezer,
-/area/ruin/space/has_grav/hotel/kitchen)
 "TA" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Laundry"
@@ -10792,8 +10722,12 @@
 "TC" = (
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
+	dir = 8
+	},
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/hotel/workroom)
 "TD" = (
@@ -10910,14 +10844,6 @@
 /obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/hotel/security)
-"TY" = (
-/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/structure/lattice/catwalk/plated/dark,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/hotel/docking_hall)
 "Ua" = (
 /obj/structure/table,
 /obj/item/storage/box/cups,
@@ -10994,23 +10920,12 @@
 /area/ruin/space/has_grav/hotel/guestroom/room_7)
 "Us" = (
 /obj/effect/turf_decal/trimline/red/filled/line,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
+/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/hotel/security)
-"Uu" = (
-/obj/structure/table/reinforced,
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "hotelbarshutters";
-	name = "Bar Shutters"
-	},
-/obj/effect/turf_decal/siding/wood{
-	dir = 10
-	},
-/turf/open/floor/iron/dark,
-/area/ruin/space/has_grav/hotel/bar)
 "Uw" = (
 /obj/structure/table/wood,
 /obj/machinery/light/directional/south,
@@ -11035,6 +10950,11 @@
 /obj/effect/mapping_helpers/paint_wall/hotel,
 /turf/closed/wall,
 /area/ruin/space/has_grav/hotel/bar_backroom)
+"UG" = (
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/hotel/bar)
 "UI" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/waterbottle{
@@ -11097,6 +11017,20 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /turf/open/floor/iron/vaporwave,
 /area/ruin/space/has_grav/hotel/guestroom/room_8)
+"UP" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/shower{
+	pixel_x = 2;
+	pixel_y = 16
+	},
+/obj/structure/curtain,
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/turf/open/floor/wood/parquet,
+/area/ruin/space/has_grav/hotel/sauna)
 "UR" = (
 /obj/structure/chair/sofa/corp/right{
 	dir = 4
@@ -11127,6 +11061,10 @@
 /obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/hotel/maintenance)
+"UW" = (
+/obj/item/cardboard_cutout,
+/turf/open/floor/iron/sepia,
+/area/ruin/space/has_grav/hotel/fitness)
 "UZ" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/structure/sign/warning/fire{
@@ -11147,6 +11085,11 @@
 /obj/machinery/door/airlock/wood/glass,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/hotel/guestroom/room_6)
+"Vd" = (
+/obj/machinery/light/directional/north,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/hotel/maintenance)
 "Ve" = (
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/guestroom/room_8)
@@ -11169,6 +11112,22 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/hotel/workroom)
+"Vq" = (
+/obj/structure/cable,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/turf/open/floor/iron/dark/textured,
+/area/ruin/space/has_grav/hotel/bar)
+"Vt" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/hotel/docking_hall)
 "Vu" = (
 /obj/structure/closet/secure_closet/freezer/fridge/open,
 /obj/item/storage/fancy/egg_box{
@@ -11200,14 +11159,6 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/guestroom/room_3)
-"Vw" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 6
-	},
-/obj/structure/lattice/catwalk/plated/smooth,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/hotel/power)
 "VB" = (
 /obj/structure/chair{
 	dir = 8
@@ -11257,14 +11208,19 @@
 /area/ruin/space/has_grav/hotel/docking_hall)
 "VP" = (
 /obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
 /obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/hotel/maintenance)
 "VQ" = (
-/turf/open/floor/iron/textured_corner{
-	dir = 8
+/obj/machinery/light/directional/west,
+/turf/open/floor/iron/textured_half{
+	dir = 1
 	},
 /area/ruin/space/has_grav/hotel/sauna)
 "VT" = (
@@ -11277,14 +11233,18 @@
 "VV" = (
 /turf/open/floor/iron/textured_half,
 /area/ruin/space/has_grav/hotel/fitness)
-"VW" = (
-/obj/machinery/vending/cola/black,
-/turf/open/floor/wood,
-/area/ruin/space/has_grav/hotel/hall_fore)
 "VX" = (
 /obj/effect/mapping_helpers/paint_wall/hotel,
 /turf/closed/wall,
 /area/ruin/space/has_grav/hotel/guestroom/room_8)
+"VY" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 10
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/turf/open/floor/eighties,
+/area/ruin/space/has_grav/hotel/hall_fore)
 "VZ" = (
 /obj/machinery/firealarm/directional/east,
 /turf/open/floor/wood,
@@ -11304,12 +11264,16 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/hotel/power)
 "Wf" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 10
+/obj/structure/cable,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
 	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
-/turf/open/floor/eighties,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4,
+/turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/hall_fore)
 "Wh" = (
 /obj/effect/turf_decal/siding/wood{
@@ -11416,16 +11380,14 @@
 /turf/open/floor/iron/dark/textured,
 /area/ruin/space/has_grav/hotel/dining_hall)
 "WF" = (
-/obj/machinery/door/airlock/maintenance{
-	name = "Hotel Maintenance";
-	req_access_txt = "200,201"
-	},
 /obj/structure/cable,
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
-/obj/structure/lattice/catwalk/plated/smooth,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/hotel/maintenance)
+/obj/machinery/door/airlock/public/glass{
+	name = "Main hall"
+	},
+/turf/open/floor/iron/textured_half,
+/area/ruin/space/has_grav/hotel/fitness)
 "WJ" = (
 /obj/structure/window,
 /obj/structure/toilet{
@@ -11450,17 +11412,6 @@
 	},
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/hotel/hall_aft)
-"WO" = (
-/obj/structure/cable,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
-	dir = 4
-	},
-/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
-	dir = 8
-	},
-/turf/open/floor/iron/dark,
-/area/ruin/space/has_grav/hotel/workroom)
 "WS" = (
 /obj/structure/chair/comfy/brown{
 	dir = 8
@@ -11566,27 +11517,19 @@
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/bar)
 "Xl" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
-	dir = 4
+/obj/structure/cable,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 10
 	},
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 9
+	dir = 10
 	},
-/turf/open/floor/iron/dark,
-/area/ruin/space/has_grav/hotel/docking_hall)
+/turf/open/floor/iron/textured_half,
+/area/ruin/space/has_grav/hotel/fitness)
 "Xp" = (
 /obj/machinery/portable_atmospherics/scrubber,
 /turf/open/floor/iron/smooth,
 /area/ruin/space/has_grav/hotel/power)
-"Xr" = (
-/obj/structure/table/reinforced,
-/obj/item/storage/fancy/cigarettes/cigars,
-/obj/item/storage/fancy/cigarettes/cigars/havana{
-	pixel_y = 4
-	},
-/turf/open/floor/iron/dark,
-/area/ruin/space/has_grav/hotel/bar)
 "Xs" = (
 /obj/structure/table,
 /obj/effect/turf_decal/trimline/green/filled/line,
@@ -11675,6 +11618,14 @@
 	},
 /turf/open/floor/iron/smooth,
 /area/ruin/space/has_grav/hotel/power)
+"XV" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 5
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/hotel/docking_hall)
 "XW" = (
 /obj/machinery/light_switch/directional/north,
 /obj/machinery/vending/boozeomat/all_access{
@@ -11722,13 +11673,12 @@
 /turf/open/floor/grass,
 /area/ruin/space/has_grav/hotel/hydroponics)
 "Yk" = (
-/obj/docking_port/stationary/small{
-	dwidth = 4;
-	height = 8;
-	width = 13
+/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 4
 	},
-/turf/template_noop,
-/area/template_noop)
+/turf/open/floor/iron/dark/textured,
+/area/ruin/space/has_grav/hotel/dining_hall)
 "Yl" = (
 /obj/effect/mapping_helpers/paint_wall/hotel,
 /turf/closed/wall,
@@ -11840,6 +11790,13 @@
 /obj/machinery/light/warm/directional/east,
 /turf/open/floor/wood/tile,
 /area/ruin/space/has_grav/hotel/guestroom/room_10)
+"YH" = (
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood/parquet,
+/area/ruin/space/has_grav/hotel/fitness)
 "YI" = (
 /obj/structure/chair,
 /obj/structure/extinguisher_cabinet/directional/east,
@@ -11918,6 +11875,15 @@
 	},
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/dining_hall)
+"Za" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood/parquet,
+/area/ruin/space/has_grav/hotel/fitness)
 "Zb" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -11925,12 +11891,6 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/guestroom/room_9)
-"Zd" = (
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 6
-	},
-/turf/open/floor/iron/dark,
-/area/ruin/space/has_grav/hotel/docking_hall)
 "Zf" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -11957,6 +11917,10 @@
 	dir = 1
 	},
 /area/ruin/space/has_grav/hotel/sauna)
+"Zk" = (
+/obj/effect/turf_decal/siding/wood/corner,
+/turf/open/floor/iron/textured_corner,
+/area/ruin/space/has_grav/hotel/fitness)
 "Zm" = (
 /obj/machinery/vending/snack/green,
 /turf/open/floor/wood,
@@ -12017,21 +11981,23 @@
 	dir = 4
 	},
 /area/ruin/space/has_grav/hotel/sauna)
-"Zw" = (
-/obj/machinery/door/firedoor,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
+"Zu" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Pool's Closed"
 	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
+/obj/structure/barricade/wooden/crude,
+/turf/open/floor/iron/textured_half{
+	dir = 1
 	},
-/obj/structure/lattice/catwalk/plated/dark,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/hotel/docking_hall)
+/area/ruin/space/has_grav/hotel/fitness)
 "Zy" = (
 /obj/effect/spawner/randomcolavend,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/hotel/hall_fore)
+"Zz" = (
+/obj/structure/chair/stool/bar/directional/south,
+/turf/open/floor/iron/textured_corner,
+/area/ruin/space/has_grav/hotel/fitness)
 "ZB" = (
 /obj/structure/chair/comfy/brown{
 	dir = 1
@@ -12083,7 +12049,11 @@
 /turf/open/floor/iron/vaporwave,
 /area/ruin/space/has_grav/hotel/guestroom/room_8)
 "ZK" = (
-/turf/open/floor/iron/dark,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/table/optable{
+	name = "Massage Table"
+	},
+/turf/open/floor/iron/dark/textured,
 /area/ruin/space/has_grav/hotel/fitness)
 "ZL" = (
 /obj/machinery/door/airlock/external/glass,
@@ -12118,14 +12088,18 @@
 /turf/open/floor/iron/freezer,
 /area/ruin/space/has_grav/hotel/kitchen)
 "ZR" = (
-/obj/docking_port/stationary/small{
-	dir = 2;
-	dwidth = 7;
-	height = 8;
-	width = 13
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
 	},
-/turf/template_noop,
-/area/template_noop)
+/obj/structure/cable,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 5
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 5
+	},
+/turf/open/floor/carpet/black,
+/area/ruin/space/has_grav/hotel/dining_hall)
 "ZS" = (
 /obj/structure/table,
 /obj/item/storage/box/beanbag{
@@ -12252,20 +12226,20 @@ sS
 Nl
 il
 wv
-Sd
-VP
-VP
-VP
-VP
+qI
+hJ
+hJ
+hJ
+hJ
 OE
-VP
+hJ
 ph
 ri
 ri
-VP
-WF
-VP
-Dg
+hJ
+wU
+hJ
+vH
 gz
 XU
 ke
@@ -12335,11 +12309,11 @@ ox
 ZG
 ZG
 Ac
-Iy
+SR
 oG
 ZC
 ZC
-Le
+tG
 Wd
 dp
 UL
@@ -12389,10 +12363,10 @@ hY
 wv
 lS
 vK
-DB
 Pv
+xf
 UV
-gD
+ts
 ZG
 TQ
 Gk
@@ -12405,7 +12379,7 @@ sC
 Bj
 ZG
 yB
-Rk
+bi
 gz
 MX
 vs
@@ -12447,8 +12421,8 @@ aa
 (5,1,1) = {"
 Ao
 Ao
-OO
-OO
+BM
+BM
 yl
 kf
 Ao
@@ -12462,7 +12436,7 @@ rT
 me
 mj
 wv
-Pe
+zM
 ZG
 gg
 Xc
@@ -12532,15 +12506,15 @@ mc
 wv
 wv
 wv
-Pe
+zM
 ZG
 Cr
-sL
-DH
 yk
+DH
+gD
 ss
 HX
-RH
+pe
 oZ
 Xs
 ZG
@@ -12548,10 +12522,10 @@ AV
 Rj
 gz
 nV
-Vw
+SN
 qB
 oo
-tG
+vD
 DZ
 eg
 wj
@@ -12600,14 +12574,14 @@ Lg
 jK
 uQ
 GC
-NT
-VP
+Rs
+hJ
 ei
 ZG
 eY
 NZ
 vw
-FE
+GZ
 ow
 wx
 KH
@@ -12615,7 +12589,7 @@ Gr
 Rb
 ZG
 Ld
-Pe
+zM
 gz
 GR
 PR
@@ -12670,14 +12644,14 @@ Yu
 ls
 Lj
 mf
-tL
+VP
 bA
 bA
 bA
 cK
 bA
 kl
-GZ
+Hc
 KH
 bn
 KH
@@ -12685,7 +12659,7 @@ Gr
 Fk
 ZG
 dE
-Pe
+zM
 gz
 gj
 HO
@@ -12733,18 +12707,18 @@ zb
 uE
 xQ
 Ao
-nw
-wl
+th
+Ry
 zJ
-Aa
+QR
 Jo
 Kx
 mf
-Pe
+zM
 bA
 NJ
 ct
-Tz
+Ky
 bA
 JK
 eR
@@ -12755,7 +12729,7 @@ Gr
 IZ
 ZG
 tE
-Pe
+zM
 gz
 gz
 gz
@@ -12825,7 +12799,7 @@ Gr
 Ww
 ZG
 GX
-Pe
+zM
 zn
 hn
 MJ
@@ -12880,11 +12854,11 @@ mf
 mf
 mf
 mf
-Pe
+zM
 bA
 ZP
 cv
-Ky
+Qp
 bA
 Mx
 Cy
@@ -12895,17 +12869,17 @@ uV
 UJ
 ZG
 uw
-DG
+zg
 ll
-VP
-Tu
+hJ
+KE
 Qn
 Lk
-WO
 TC
-TC
+ae
+ae
 Lk
-pe
+Mi
 RK
 PH
 Tw
@@ -12943,18 +12917,18 @@ zc
 Wp
 dy
 pQ
-lp
+Wf
 lz
-VW
+FL
 iJ
 Ha
 BQ
 iJ
-Pe
+zM
 bA
 bA
 bA
-Ki
+qP
 bA
 bA
 bA
@@ -12964,7 +12938,7 @@ XD
 vP
 fR
 bA
-FG
+kD
 bA
 bA
 SF
@@ -13020,7 +12994,7 @@ iJ
 Ea
 iN
 iJ
-Pe
+zM
 Rz
 bA
 cx
@@ -13038,7 +13012,7 @@ aI
 wN
 bA
 Ua
-hM
+DB
 No
 le
 oE
@@ -13090,21 +13064,21 @@ iJ
 nY
 Hw
 iJ
-Pe
-qI
+zM
+Cd
 bA
 mC
-iy
-Jw
-Jw
+ND
 yS
-Jw
+yS
+hg
+yS
 AE
 vj
 Ad
+hg
 yS
-Jw
-un
+aX
 Gs
 bA
 iZ
@@ -13153,14 +13127,14 @@ Ao
 Ao
 Ao
 Ao
-cb
+Ks
 nv
 iJ
 Bx
 Bi
 gs
 iJ
-Pe
+zM
 bU
 bA
 sN
@@ -13178,7 +13152,7 @@ xI
 Az
 bA
 xk
-hM
+DB
 Qq
 Qq
 Qq
@@ -13230,7 +13204,7 @@ zh
 nS
 KF
 iJ
-Pe
+zM
 IN
 bA
 fT
@@ -13260,7 +13234,7 @@ pz
 sj
 rX
 kg
-Im
+kd
 Zr
 rX
 aa
@@ -13293,14 +13267,14 @@ jm
 kq
 aD
 YN
-Aw
-AA
+Pt
+LK
 eV
 DY
 oJ
 LR
 iJ
-tL
+VP
 WZ
 bA
 mD
@@ -13326,10 +13300,10 @@ XT
 XT
 Pw
 vl
-vS
-sM
+uh
+Us
 JF
-ca
+RH
 Yc
 gf
 rX
@@ -13341,7 +13315,7 @@ vW
 VO
 Ls
 yH
-Zd
+dT
 ry
 zP
 aa
@@ -13377,7 +13351,7 @@ bA
 bA
 bA
 iU
-Pg
+ew
 Xe
 Xe
 PB
@@ -13387,18 +13361,18 @@ bA
 bA
 bA
 bA
-wJ
-np
+hM
+Cm
 uL
 fD
 IY
 PW
 hu
-wI
-zN
-Hh
+Jk
+Ki
+vS
 ko
-hV
+NP
 XF
 Sv
 Go
@@ -13411,7 +13385,7 @@ kj
 LH
 Dk
 VO
-pp
+uo
 LH
 zP
 aa
@@ -13440,7 +13414,7 @@ bt
 eC
 LN
 iJ
-tL
+VP
 OQ
 cm
 cz
@@ -13457,7 +13431,7 @@ rf
 Qm
 ym
 MF
-hJ
+tW
 oC
 rX
 wA
@@ -13466,7 +13440,7 @@ rX
 qU
 MW
 XT
-JH
+wI
 dZ
 rX
 rX
@@ -13478,10 +13452,10 @@ nm
 Wy
 VH
 mL
-yZ
+rE
 XP
 ZW
-vV
+XV
 AI
 Wy
 nm
@@ -13510,7 +13484,7 @@ iJ
 iJ
 iJ
 iJ
-tL
+VP
 OQ
 mw
 Zp
@@ -13527,20 +13501,20 @@ bA
 Zf
 PP
 OQ
-qI
+Cd
 xo
 rX
 Mw
-KY
+CW
 rX
 tu
 MW
 Pw
-JH
+wI
 tC
 rX
 kg
-Im
+kd
 Fl
 rX
 aa
@@ -13551,7 +13525,7 @@ tb
 wo
 Dk
 LH
-rZ
+sM
 LH
 zP
 aa
@@ -13575,12 +13549,12 @@ NF
 QI
 Hk
 NK
-pd
+Tr
 Io
 Md
 dG
 Io
-tL
+VP
 OQ
 wX
 oD
@@ -13606,10 +13580,10 @@ rX
 HK
 YW
 XT
-bO
-Us
+Gt
+gN
 JF
-By
+iw
 Yc
 TX
 rX
@@ -13621,7 +13595,7 @@ vW
 wo
 Dk
 VO
-GA
+EO
 Ff
 zP
 aa
@@ -13650,7 +13624,7 @@ Io
 uq
 oO
 Io
-tL
+VP
 OQ
 pF
 KJ
@@ -13720,7 +13694,7 @@ Io
 SC
 JV
 Io
-tL
+VP
 qe
 mx
 Zf
@@ -13737,8 +13711,8 @@ EB
 xy
 Yp
 OQ
-cy
-hM
+CE
+DB
 rX
 rX
 rX
@@ -13761,7 +13735,7 @@ Yr
 Yr
 Wy
 Dk
-Zw
+BE
 Dk
 Wy
 Wy
@@ -13790,7 +13764,7 @@ wu
 nU
 cU
 Io
-tL
+VP
 OQ
 mz
 Zf
@@ -13807,7 +13781,7 @@ ZE
 fB
 OQ
 OQ
-Dd
+ty
 JE
 Cw
 Gm
@@ -13831,7 +13805,7 @@ LH
 LH
 sa
 LH
-Rr
+LM
 LH
 Dk
 uv
@@ -13860,7 +13834,7 @@ yx
 yn
 VT
 Io
-tL
+VP
 OQ
 mA
 Zf
@@ -13875,33 +13849,33 @@ oS
 Cu
 YV
 JC
-kA
+OQ
 xY
-zI
-hM
+Jx
+DB
 Cw
 pO
 if
 Ie
 hW
 FA
-tA
-Rs
-Rs
-Rs
-tA
-Rs
+Sz
+uP
+uP
+uP
+Sz
+uP
 bK
 Eq
 iS
 TN
 Ef
-zr
-Ex
-zr
-zr
-Rh
-Xl
+OV
+eh
+OV
+OV
+vV
+NG
 Ff
 Dk
 LH
@@ -13923,7 +13897,7 @@ jA
 fq
 MN
 QC
-fY
+Tj
 lx
 wM
 JB
@@ -13934,7 +13908,7 @@ Ap
 OQ
 mB
 Zf
-cH
+dL
 DW
 WS
 aZ
@@ -13946,8 +13920,8 @@ Cu
 rV
 fE
 qZ
-wJ
-zM
+hM
+OY
 Fs
 Cw
 ny
@@ -13955,7 +13929,7 @@ TH
 Wv
 rP
 Um
-gM
+tA
 TD
 aQ
 Uo
@@ -13970,7 +13944,7 @@ Wm
 LH
 yG
 VO
-Rr
+LM
 LH
 LH
 Dk
@@ -13993,14 +13967,14 @@ qy
 fq
 fq
 Wh
-fg
+Aa
 Tf
 Io
 jt
 IW
 xa
 Io
-tL
+VP
 OQ
 jT
 Zf
@@ -14017,7 +13991,7 @@ Fg
 fE
 OQ
 Wl
-zI
+Jx
 sO
 Cw
 Xj
@@ -14025,7 +13999,7 @@ TH
 NM
 rP
 Um
-gM
+tA
 MZ
 Yl
 Yl
@@ -14040,7 +14014,7 @@ Wy
 Wy
 Wy
 Dk
-BE
+af
 Wy
 Wy
 Wy
@@ -14063,14 +14037,14 @@ jB
 SQ
 fq
 Hj
-QN
+iI
 nv
 Io
 EM
 gt
 gT
 Io
-tL
+VP
 OQ
 Ik
 Zf
@@ -14087,15 +14061,15 @@ EH
 fF
 OQ
 OQ
-wJ
 hM
+DB
 Cw
 ta
 vc
 FF
 rP
 Um
-Bq
+vn
 st
 Yl
 On
@@ -14110,7 +14084,7 @@ aa
 aa
 Wy
 LH
-Rr
+LM
 Wy
 nm
 nm
@@ -14133,14 +14107,14 @@ OP
 yd
 fq
 lr
-fg
+Aa
 tl
 Io
 Io
 Io
 Io
 Io
-FG
+kD
 OQ
 Jd
 Zf
@@ -14157,8 +14131,8 @@ nJ
 fG
 qQ
 OQ
-CE
-hM
+Vd
+DB
 Cw
 Cw
 DJ
@@ -14180,7 +14154,7 @@ aa
 aa
 zP
 GP
-TY
+wt
 zP
 aa
 nm
@@ -14202,8 +14176,8 @@ Gb
 HW
 kv
 kY
-NP
-gN
+lp
+Nq
 MU
 YY
 lL
@@ -14227,15 +14201,15 @@ WY
 fN
 fU
 OQ
-oW
-bX
-WF
+OT
+uR
+wU
 WN
 El
 El
 tT
 ja
-gM
+tA
 VK
 Yl
 QL
@@ -14305,7 +14279,7 @@ gI
 dW
 dW
 ja
-HP
+Ft
 UN
 Yl
 Nr
@@ -14351,8 +14325,8 @@ mb
 qT
 YO
 mo
-jq
 mt
+ZR
 xy
 vI
 ZY
@@ -14375,7 +14349,7 @@ nk
 nk
 nk
 Jb
-HP
+Ft
 VK
 Yl
 cT
@@ -14412,14 +14386,14 @@ mf
 mf
 mf
 mf
-JM
-fg
+Cq
+Aa
 lz
 TJ
 TJ
 TJ
 TJ
-FG
+kD
 mR
 ab
 TA
@@ -14431,21 +14405,21 @@ tQ
 tQ
 tQ
 tQ
-Ij
+HE
 CV
 CV
 CV
 CV
 CV
-oF
+rZ
 zT
 IV
 JD
-uz
-uz
-uz
-vR
-oz
+HP
+HP
+HP
+xC
+zj
 VK
 Yl
 BC
@@ -14483,13 +14457,13 @@ jN
 wf
 mf
 QC
-fg
-cf
+Aa
+Bh
 TJ
 gA
 qo
 TJ
-tL
+VP
 mR
 mu
 ah
@@ -14501,7 +14475,7 @@ xy
 xy
 xy
 ZY
-AS
+AT
 ji
 xy
 xy
@@ -14559,7 +14533,7 @@ TJ
 oj
 AY
 TJ
-Pe
+zM
 mR
 Es
 eH
@@ -14571,7 +14545,7 @@ TK
 CO
 Yd
 ie
-NR
+Yk
 tm
 CO
 Yd
@@ -14580,7 +14554,7 @@ TK
 Zm
 Ti
 OQ
-FG
+kD
 Yl
 Yl
 Yl
@@ -14590,7 +14564,7 @@ Yt
 Yl
 Rq
 pa
-eq
+jL
 pv
 IQ
 Wt
@@ -14623,13 +14597,13 @@ bC
 jO
 NY
 lr
-sH
+RL
 TJ
 TJ
 NW
 Vc
 TJ
-Pe
+zM
 mR
 hG
 nj
@@ -14641,7 +14615,7 @@ TK
 rj
 Zp
 Zf
-ER
+tn
 tm
 Zp
 Zp
@@ -14693,7 +14667,7 @@ go
 jO
 ql
 QC
-sH
+RL
 TJ
 lF
 VE
@@ -14720,7 +14694,7 @@ gn
 Fp
 hK
 OQ
-tL
+VP
 Yl
 ME
 MP
@@ -14740,7 +14714,7 @@ aa
 aa
 Wy
 IA
-cA
+Lr
 Wy
 aa
 aa
@@ -14759,17 +14733,17 @@ aa
 Nc
 PQ
 JI
-Wf
+VY
 Jr
 gB
 yf
-Bt
+nd
 TJ
 GF
 Oc
 jb
 TJ
-Pe
+zM
 Zg
 Zg
 Zg
@@ -14777,7 +14751,7 @@ Zg
 Zg
 Zg
 Ra
-OT
+lW
 Lm
 qA
 OD
@@ -14785,16 +14759,16 @@ jI
 OD
 aw
 Lm
-OT
+lW
 Ra
 Ra
 OQ
 OQ
-tL
+VP
 Yl
 Qc
 YS
-ld
+fk
 rg
 st
 Yl
@@ -14839,7 +14813,7 @@ lG
 GT
 tK
 TJ
-Pe
+zM
 Zg
 Bl
 cD
@@ -14850,16 +14824,16 @@ MQ
 ZT
 Xk
 ot
-cO
+Vq
 Pk
 IH
 Cp
 GV
-IK
+rv
 nA
 Ra
-Sd
-VP
+qI
+hJ
 ei
 GE
 Pq
@@ -14909,7 +14883,7 @@ lH
 ao
 FV
 TJ
-Pe
+zM
 Zg
 cc
 FN
@@ -14928,7 +14902,7 @@ HA
 Yf
 tP
 Ra
-tL
+VP
 NA
 NA
 NA
@@ -14940,7 +14914,7 @@ Ib
 Oi
 Bg
 jd
-wa
+Rx
 iK
 Eb
 jd
@@ -14950,7 +14924,7 @@ aa
 aa
 zP
 LH
-rZ
+sM
 zP
 aa
 nm
@@ -14973,13 +14947,13 @@ hA
 rK
 mf
 QC
-sH
+RL
 TJ
 lI
 aq
 aC
 TJ
-Pe
+zM
 Zg
 Zg
 Zg
@@ -14998,7 +14972,7 @@ HA
 Yf
 Ak
 Ra
-tL
+VP
 NA
 ZI
 cX
@@ -15020,7 +14994,7 @@ aa
 aa
 zP
 LH
-rZ
+sM
 zP
 aa
 nm
@@ -15043,7 +15017,7 @@ mf
 mf
 mf
 QC
-sH
+RL
 TJ
 TJ
 TJ
@@ -15068,12 +15042,12 @@ HA
 Yf
 rM
 Ra
-tL
+VP
 NA
 TT
 Ye
 hB
-oI
+sB
 hB
 JZ
 VV
@@ -15090,7 +15064,7 @@ aa
 aa
 Wy
 wh
-HE
+Vt
 Wy
 nm
 nm
@@ -15113,21 +15087,21 @@ oB
 bV
 Hg
 QC
-sH
+RL
 hY
 ZD
 SO
 Wq
 ZD
-Pe
+zM
 Zg
 Ni
 uT
 tS
 lj
 CD
-rv
-qV
+UG
+Sd
 DK
 pP
 Sj
@@ -15138,7 +15112,7 @@ HA
 Yf
 cQ
 Ra
-tL
+VP
 NA
 LB
 dj
@@ -15183,13 +15157,13 @@ An
 bV
 oh
 QC
-sH
+RL
 gi
 ZD
 lN
 ax
 ZD
-Pe
+zM
 UF
 UF
 UF
@@ -15208,7 +15182,7 @@ gl
 QB
 qR
 Ra
-Rm
+bw
 NA
 ds
 dj
@@ -15219,8 +15193,8 @@ MA
 VV
 Oi
 gm
-FR
-BM
+GN
+wa
 XQ
 CB
 KX
@@ -15230,7 +15204,7 @@ aa
 aa
 zP
 LH
-HE
+Vt
 zP
 aa
 aa
@@ -15259,15 +15233,15 @@ ZD
 XX
 Hm
 ZD
-Pe
+zM
 UF
 FX
 YB
 ra
 wV
 UF
-GM
-Uu
+Rw
+aN
 at
 Oj
 cs
@@ -15278,20 +15252,20 @@ at
 OC
 ya
 Ra
-Di
+tL
 NA
 eD
 dj
 sX
 sX
 sX
-qm
+pN
 iP
 LE
 Ts
-xi
 Cs
-Lr
+qG
+zx
 Wb
 Oi
 Oi
@@ -15300,7 +15274,7 @@ aa
 aa
 zP
 LH
-rZ
+sM
 zP
 aa
 aa
@@ -15323,13 +15297,13 @@ Ow
 kt
 bV
 QC
-sH
+RL
 ZD
 UU
 lP
 Wz
 ZD
-Pe
+zM
 UF
 RA
 cJ
@@ -15337,31 +15311,31 @@ Uz
 Uz
 QG
 MS
-eM
-da
+Ee
+tU
 OC
 qN
-GB
+mm
 rF
 Nt
 Nt
 OC
 OC
-ci
-Rg
-KR
+xR
+Xl
+WF
 iP
+tY
+qm
 Ck
-Lw
-bk
-Lw
-OL
+qm
+au
 LZ
 Oi
 in
-zx
+CI
 AQ
-Lr
+zx
 CB
 KX
 Jc
@@ -15370,7 +15344,7 @@ aa
 aa
 zP
 LH
-rZ
+sM
 zP
 aa
 aa
@@ -15393,13 +15367,13 @@ HU
 ku
 bV
 lr
-sH
+RL
 ZD
 GJ
 wL
 Ja
 ZD
-Pe
+zM
 UF
 Bv
 rn
@@ -15407,11 +15381,11 @@ wP
 mK
 UF
 Fn
-eM
+Ee
 fu
 fu
 fu
-HD
+Gn
 fu
 fu
 fu
@@ -15425,13 +15399,13 @@ Ht
 OU
 OU
 OU
-AW
+YH
 VV
 Oi
 cq
 wz
 Lb
-tZ
+sI
 CB
 Oi
 Oi
@@ -15440,7 +15414,7 @@ aa
 aa
 Wy
 wh
-rZ
+sM
 Wy
 aa
 aa
@@ -15492,14 +15466,14 @@ Nw
 NA
 Gp
 Ht
-vT
+ZK
 fd
-vT
+ZK
 bx
 bL
 Oi
 gK
-Bh
+QT
 pv
 kG
 CB
@@ -15510,7 +15484,7 @@ nm
 nm
 Wy
 LH
-rZ
+sM
 Wy
 nm
 nm
@@ -15539,21 +15513,21 @@ KQ
 wE
 Yv
 ZD
-RL
-WF
+nw
+wU
 wQ
-aB
-aB
+QM
+QM
 yW
 Kj
 Dr
-KW
+Lz
 Ei
-KW
-KW
+Lz
+Lz
 If
-rp
 xJ
+Tu
 Ey
 Ey
 Ey
@@ -15564,12 +15538,12 @@ NA
 Tl
 Uk
 Uk
-kD
+uX
 QZ
 VV
 Oi
 CB
-Bh
+QT
 pv
 kG
 CB
@@ -15580,7 +15554,7 @@ nm
 aa
 zP
 LH
-rZ
+sM
 zP
 aa
 nm
@@ -15603,13 +15577,13 @@ jD
 kI
 bV
 lr
-sH
+RL
 ZD
 Br
 FK
 Ai
 ZD
-qI
+Cd
 UF
 nR
 qW
@@ -15617,7 +15591,7 @@ ZS
 Mg
 UF
 XW
-Xr
+vA
 Nm
 MS
 qh
@@ -15627,9 +15601,9 @@ Xv
 MS
 iX
 Sp
-Pn
+mQ
 MS
-fK
+Fh
 cj
 eQ
 eQ
@@ -15641,7 +15615,7 @@ Oi
 jn
 ka
 pv
-Cd
+UP
 GQ
 Oi
 aa
@@ -15673,7 +15647,7 @@ bV
 bV
 bV
 eF
-sH
+RL
 ZD
 ZD
 ZD
@@ -15698,12 +15672,12 @@ pB
 tH
 tH
 Ra
-kK
+sD
 NA
 NA
 RR
 NA
-yj
+Zu
 NA
 RR
 NA
@@ -15712,7 +15686,7 @@ Oi
 Oi
 Oi
 Oi
-vy
+NH
 Oi
 nm
 nm
@@ -15720,7 +15694,7 @@ nm
 aa
 zP
 GP
-af
+ed
 zP
 aa
 nm
@@ -15743,7 +15717,7 @@ Qw
 cu
 kZ
 lr
-sH
+RL
 bv
 VX
 pT
@@ -15767,10 +15741,10 @@ tH
 tH
 tH
 aa
-Bb
-ZK
-hv
-EG
+NA
+CY
+py
+Zz
 eQ
 eQ
 eQ
@@ -15778,19 +15752,19 @@ eQ
 eQ
 eQ
 Ce
-Ot
-Ga
-lW
+hy
+PO
+VQ
 IJ
 Ul
-IT
+Oi
 aa
 aa
 nm
 nm
 Wy
 wh
-ou
+Tm
 Wy
 nm
 nm
@@ -15813,7 +15787,7 @@ QE
 cu
 rx
 LS
-ae
+sH
 Kx
 VX
 GH
@@ -15838,29 +15812,29 @@ aa
 aa
 aa
 RR
-ZK
-Op
-wU
-qk
+CY
+IT
+AS
+to
+bX
+bX
+bX
+bX
 BN
-BN
-BN
-BN
-JG
 VV
-Bb
+NA
 CB
-vf
-Jk
+cH
+eZ
 CB
-Ee
+fs
 aa
 aa
 aa
 aa
 Wy
 LH
-ou
+Tm
 Wy
 aa
 aa
@@ -15883,7 +15857,7 @@ MR
 cu
 cu
 AK
-sH
+RL
 VX
 VX
 Sr
@@ -15908,29 +15882,29 @@ aa
 aa
 aa
 RR
-ag
-Op
-wU
-Pt
-di
-Pb
-Pb
-Pb
-Pb
-AB
-Ot
-VQ
-IJ
-IJ
-pw
+hH
 IT
+AS
+Au
+Zk
+uS
+uS
+uS
+uS
+KR
+hy
+Is
+IJ
+IJ
+SW
+Oi
 aa
 aa
 aa
 aa
 zP
 LH
-oY
+pp
 zP
 aa
 aa
@@ -15953,7 +15927,7 @@ pm
 yq
 cu
 lr
-sH
+RL
 VX
 bB
 vb
@@ -15977,30 +15951,30 @@ gP
 gP
 aa
 aa
-Bb
-KN
-Op
-wU
-Pt
-SJ
-Au
-Au
-Au
-Au
-xj
-Bb
+NA
+ML
 IT
-Ee
-Ee
-IT
-IT
+AS
+Au
+NN
+FG
+FG
+FG
+FG
+wJ
+NA
+Oi
+fs
+fs
+Oi
+Oi
 aa
 aa
 aa
 aa
 zP
 LH
-oY
+pp
 zP
 aa
 aa
@@ -16023,7 +15997,7 @@ YJ
 zW
 cu
 hT
-ar
+DP
 VX
 Po
 Sb
@@ -16045,19 +16019,19 @@ aa
 aa
 aa
 aa
-tU
+Pe
 aa
 RR
-Op
-Op
+IT
+IT
 VV
-Pt
-SJ
 Au
-Au
-Au
-Au
-Ks
+NN
+FG
+FG
+FG
+FG
+UW
 RR
 aa
 aa
@@ -16070,7 +16044,7 @@ aa
 aa
 zP
 LH
-oY
+pp
 zP
 aa
 aa
@@ -16092,7 +16066,7 @@ eS
 Qs
 Vv
 KA
-NP
+lp
 ba
 zf
 UO
@@ -16115,19 +16089,19 @@ aa
 aa
 aa
 aa
-tU
+Pe
 aa
 RR
 VV
 VV
-Ku
-Pt
-SJ
+DT
 Au
-Au
-Au
-Au
-Au
+NN
+FG
+FG
+FG
+FG
+FG
 RR
 aa
 aa
@@ -16187,18 +16161,18 @@ aa
 aa
 gP
 nm
-Bb
+NA
 VV
 VV
 VV
-Pt
-SJ
 Au
-Au
-Au
-Au
-Au
-Bb
+NN
+FG
+FG
+FG
+FG
+FG
+NA
 aa
 aa
 aa
@@ -16210,7 +16184,7 @@ Wy
 Wy
 Wy
 QA
-Tm
+rR
 Wy
 Wy
 Wy
@@ -16255,19 +16229,19 @@ aa
 aa
 aa
 aa
-tU
+Pe
 aa
 RR
 VV
 VV
 VV
-Pt
-SJ
 Au
-Au
-Au
-Au
-Au
+NN
+FG
+FG
+FG
+FG
+FG
 RR
 aa
 aa
@@ -16275,7 +16249,7 @@ aa
 aa
 aa
 aa
-Yk
+aa
 ZL
 oa
 ir
@@ -16284,7 +16258,7 @@ LH
 hP
 oa
 Af
-ZR
+aa
 aa
 aa
 aa
@@ -16325,19 +16299,19 @@ aa
 aa
 aa
 aa
-tU
+Pe
 aa
 RR
 VV
-Ku
+DT
 VV
-Pt
-SJ
 Au
-bg
-Au
-Au
-Au
+NN
+FG
+ev
+FG
+FG
+FG
 RR
 aa
 aa
@@ -16397,18 +16371,18 @@ aa
 aa
 gP
 nm
-Bb
-ww
+NA
+zA
 VV
 VV
-Pt
-SJ
 Au
-Au
-Au
-Au
-xj
-Bb
+NN
+FG
+FG
+FG
+FG
+wJ
+NA
 aa
 aa
 aa
@@ -16465,19 +16439,19 @@ aa
 aa
 aa
 aa
-tU
+Pe
 aa
 RR
 VV
 VV
 VV
-Pt
-SJ
 Au
-Au
-Au
-Au
-Au
+NN
+FG
+FG
+FG
+FG
+FG
 RR
 aa
 aa
@@ -16535,19 +16509,19 @@ aa
 aa
 aa
 aa
-tU
+Pe
 aa
 RR
 VV
-Ku
+DT
 VV
-nD
-SJ
-Au
-Au
-Au
-Au
-Au
+Za
+NN
+FG
+FG
+FG
+FG
+FG
 RR
 aa
 aa
@@ -16605,20 +16579,20 @@ aa
 aa
 aa
 aa
-tU
+Pe
 aa
-Bb
-do
+NA
+Fj
 LU
-do
+Fj
 eQ
-ES
-Au
-Au
-Au
-Au
-Au
-Bb
+JQ
+FG
+FG
+FG
+FG
+FG
+NA
 aa
 aa
 aa
@@ -16677,18 +16651,18 @@ aa
 aa
 gP
 nm
-Bb
-Bb
+NA
+NA
 RR
 RR
-Bb
+NA
 RR
 RR
-Bb
+NA
 RR
 RR
-Bb
-Bb
+NA
+NA
 nm
 gP
 aa
@@ -16745,7 +16719,7 @@ aa
 aa
 aa
 aa
-tU
+Pe
 aa
 nm
 aa
@@ -16760,7 +16734,7 @@ aa
 aa
 nm
 aa
-tU
+Pe
 aa
 aa
 aa
@@ -16815,22 +16789,22 @@ aa
 aa
 aa
 aa
-tU
-tU
+Pe
+Pe
 gP
-tU
-tU
-tU
+Pe
+Pe
+Pe
 gP
-tU
-tU
+Pe
+Pe
 gP
-tU
-tU
-tU
+Pe
+Pe
+Pe
 gP
-tU
-tU
+Pe
+Pe
 aa
 aa
 aa
